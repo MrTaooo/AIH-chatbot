@@ -25,14 +25,14 @@ tools = [
         query_engine = query_engine,
         metadata = ToolMetadata(
             name = "mw_handy_guide",
-            description = "This is a handy guide for migrant workers. Use this for reading information about migrant workers",
+            description = "This is a handy guide provided by Singapore Ministry of Manpower (MOM). Use this for providing information and guide migrant workers",
         ),
     )
 ]
 
-# code_llm = Ollama(model="codellama")
 agent = ReActAgent.from_tools(tools, llm=llm, verbose=True, context=context)
 
 while (prompt := input("Enter a prompt (q to quit):")) != "q":
-    result = agent.query(prompt)
+    # result = agent.query(prompt)
+    result = query_engine.query(prompt)
     print(result)
