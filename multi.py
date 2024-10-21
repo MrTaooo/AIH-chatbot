@@ -34,6 +34,7 @@ sections = {
     "Health-and-Safety": os.path.join(base_dir, "Health-and-Safety"),
     "Legal-and-Financial Matters": os.path.join(base_dir, "Legal-and-Financial Matters"),
     "Help-and-Resources": os.path.join(base_dir, "Help-and-Resources"),
+    "all" : os.path.join(base_dir, "all")
 }
 
 agents = {}
@@ -62,24 +63,24 @@ for section_name, section_path in sections.items():
 # # Orchestrator to route queries to the correct agent
 def orchestrator(keyword):
     # Define routing logic based on keywords
-    if keyword in "Living-in-Singapore":
+    if "Living-in-Singapore" in keyword:
         print("Query contains keywords related to 'Living in Singapore'.")
         return agents["Living-in-Singapore"]
-    elif keyword in "Working-in-Singapore":
+    elif "Working-in-Singapore" in keyword:
         print("Query contains keywords related to 'Working in Singapore'.")
         return agents["Working-in-Singapore"]
-    elif keyword in "Health-and-Safety":
+    elif "Health-and-Safety" in keyword:
         print("Query contains keywords related to 'Health and Safety'.")
         return agents["Health-and-Safety"]
-    elif keyword in "Legal-and-Financial Matters":
+    elif "Legal-and-Financial Matters" in keyword:
         print("Query contains keywords related to 'Legal and Financial Matters'.")
         return agents["Legal-and-Financial Matters"]
-    elif keyword in "Help-and-Resources":
+    elif "Help-and-Resources" in keyword:
         print("Query contains keywords related to 'Help and Resources")
         return agents["Help-and-Resources"]
     else:
         print("No specific agent found for the query. Defaulting to 'Working in Singapore'.")
-        return "Others"  # Default agent
+        return agents["all"]  # Default agent
 
 # print("Orchestrator is running...")
 
