@@ -77,7 +77,7 @@ def translate_text(text, dest_language):
         chunk = text[i:i + MAX_TRANSLATION_CHARACTERS]
         translated_chunk = translator.translate(chunk)
         translated_text += translated_chunk
-    translated_text += translator.translate("\n You can ask the next question! ")
+    translated_text += translator.translate("\nYou can ask the next question! ")
     return translated_text
 
 @bot.message_handler(commands=['reset'])
