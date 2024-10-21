@@ -2,7 +2,8 @@ import os
 import telebot
 from dotenv import load_dotenv
 from translate import Translator  # Import the Translator class from the translate library
-import model
+import single_LLM 
+import multi_LLM 
 import json
 
 load_dotenv()
@@ -77,7 +78,7 @@ def translate_text(text, dest_language):
         chunk = text[i:i + MAX_TRANSLATION_CHARACTERS]
         translated_chunk = translator.translate(chunk)
         translated_text += translated_chunk
-    translated_text += translator.translate("\nYou can ask the next question! ")
+    # translated_text += translator.translate("\nYou can ask the next question! ")
     return translated_text
 
 @bot.message_handler(commands=['reset'])
@@ -109,7 +110,8 @@ def send_text(message):
             english_question = message.text
 
         # Get the response in English
-        response = model.getResponse(english_question)
+        response = single_LLM.getResponse(english_question) ############ UNCOMMENT FOR SINGLE LLM
+        # response = multi_LLM.getResponse(english_question) ############ UNCOMMENT FOR MULTI LLM
         english_response = response["answer"]
         source_documents = response["source_documents"]
 
