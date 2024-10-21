@@ -12,7 +12,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 
-def getResponse(question: str) -> str:
+def getResponse(question: str) -> dict:
     """
     A modified implementation to define routing logic based on keywords
     and use an orchestrator to route queries to the correct agent.
@@ -66,13 +66,6 @@ def getResponse(question: str) -> str:
             persist_directory=persist_directory
         )
 
-        # Create retriever
-        #retriever=vectordb.as_retriever(search_type="similarity_score_threshold", search_kwargs={"score_threshold": .5, "k": 5})
-        retriever=vectordb.as_retriever(search_type="mmr", search_kwargs={"k": 10})
-
-        # Store retriever
-        retrievers[section_name] = retriever
-
         # Create chain
         memory = ConversationBufferMemory(
             memory_key="chat_history",
@@ -80,7 +73,19 @@ def getResponse(question: str) -> str:
             input_key='question',
             output_key='answer'
         )
+        
+        # Code below will enable tracing so we can take a deeper look into the chain
+        os.environ["LANGCHAIN_TRACING_V2"] = "true"
+        os.environ["LANGCHAIN_ENDPOINT"] = "https://api.langchain.plus"
+        os.environ["LANGCHAIN_PROJECT"] = "Chatbot"
 
+        # Create retriever
+        #retriever=vectordb.as_retriever(search_type="similarity_score_threshold", search_kwargs={"score_threshold": .5, "k": 5})
+        retriever=vectordb.as_retriever(search_type="mmr", search_kwargs={"k": 10})
+
+        # Store retriever
+        retrievers[section_name] = retriever
+        
         # Define template prompt
         template = """You are a friendly chatbot helping a volunteer to help a migrant worker settle down in Singapore, more specifically MOM's Settling-in Programme (SIP). The SIP is a 1-day orientation programme to educate migrant workers on Singapore's social norms, their employment rights and responsibilities, Singapore laws and where and how to seek assistance. Use the following pieces of context to answer the question at the end. Always say Thanks for asking at the end of the answer.
         {context}
