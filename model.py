@@ -87,7 +87,6 @@ def getResponse(question: str) -> str:
         memory=memory
     )
 
-    # Evaluate your chatbot with questions
     result = qa({"question": question})
 
     print(result)

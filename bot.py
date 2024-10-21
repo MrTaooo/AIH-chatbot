@@ -40,7 +40,7 @@ def start(message):
             start_message = f"Welcome back! You're currently using {selected_language}. You can change the language by typing /reset."
         else:
             # Start bot introduction
-            start_message = "Hi my name is Tao, and I am your friendly AI powered chatbot. I am here to help you with all matters related to MOM's Settling-in Programme (SIP). Topics I am well versed with include: \n\n- Singapore's social norms \n- Employment rights and responsibilities \n- Singapore laws \n- Where and how to seek assistance \n\nPlease choose the language for translation at the start:"
+            start_message = "Hello! My name is Jamie, and I am your friendly AI powered chatbot. I am here to help you with all matters related to MOM's Settling-in Programme (SIP). Topics I am well versed with include: \n\n- Singapore's social norms \n- Employment rights and responsibilities \n- Singapore laws \n- Where and how to seek assistance \n\nPlease choose the language for translation at the start:"
         
             # Create a custom keyboard with language options
             markup = telebot.types.ReplyKeyboardMarkup(row_width=2)
@@ -73,7 +73,7 @@ def translate_text(text, dest_language):
     translator = Translator(to_lang=dest_language)
     translated_text = ""
     for i in range(0, len(text), MAX_TRANSLATION_CHARACTERS):
-        chunk =     text[i:i + MAX_TRANSLATION_CHARACTERS]
+        chunk = text[i:i + MAX_TRANSLATION_CHARACTERS]
         translated_chunk = translator.translate(chunk)
         translated_text += translated_chunk
     translated_text += translator.translate(" You can ask the next question! ")
