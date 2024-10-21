@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 
 
-def getResponse(question: str) -> str:
+def getResponse(question: str) -> dict:
     """
     A repeated implementation of the langchain code in Week 5
     This code is purposely built to be inefficient! 
@@ -86,8 +86,9 @@ def getResponse(question: str) -> str:
         return_generated_question=True,
         memory=memory
     )
+    
 
     result = qa({"question": question})
 
     print(result)
-    return result['answer']
+    return {"answer": result['answer'], "source_documents": result['source_documents']}

@@ -3,6 +3,7 @@ import telebot
 from dotenv import load_dotenv
 from translate import Translator  # Import the Translator class from the translate library
 import model
+import json
 
 load_dotenv()
 
@@ -76,7 +77,7 @@ def translate_text(text, dest_language):
         chunk = text[i:i + MAX_TRANSLATION_CHARACTERS]
         translated_chunk = translator.translate(chunk)
         translated_text += translated_chunk
-    translated_text += translator.translate(" You can ask the next question! ")
+    translated_text += translator.translate("\n You can ask the next question! ")
     return translated_text
 
 @bot.message_handler(commands=['reset'])
@@ -108,8 +109,24 @@ def send_text(message):
             english_question = message.text
 
         # Get the response in English
-        english_response = model.getResponse(english_question)
-  
+        response = model.getResponse(english_question)
+        english_response = response["answer"]
+        source_documents = response["source_documents"]
+
+        # Extract sources from source_documents
+        sources = []
+        for doc in source_documents:
+            source = doc.metadata.get('source', 'Unknown Source')
+            splitted_source = source.split("/")
+            source = splitted_source[-1]
+            page_number = doc.metadata.get('page', 'No Page')
+            if source not in sources:
+                sources.append(source)
+
+        # Prepare the sources list
+        sources_text = "References:\n"
+        for idx, source in enumerate(sources, 1):
+            sources_text += f"{idx}. {source} - Page {page_number}\n"
 
         # Get the full name of the selected language
         full_language_name = next((k for k, v in languages.items() if v == selected_language), selected_language)
@@ -120,8 +137,11 @@ def send_text(message):
        
         # Translate the English answer to the selected language
         translated_response = translate_text(english_response, selected_language)
-        # Send the answer in the selected language
-        bot.send_message(message.chat.id, f"{full_language_name} Answer:\n{translated_response}")
+        translated_sources = translate_text(sources_text, selected_language)
+        
+        # Send the answer and sources in the selected language
+        bot.send_message(message.chat.id, f"{full_language_name} Answer:\n{translated_response}\n\n{translated_sources}")
+
         
 
 
