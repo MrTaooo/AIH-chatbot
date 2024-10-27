@@ -1,6 +1,8 @@
 import os
 import telebot
 from dotenv import load_dotenv
+import threading
+import time
 from translate import Translator  # Import the Translator class from the translate library
 import single_LLM 
 import multi_LLM 
@@ -89,10 +91,20 @@ def reset_language(message):
         del user_languages[user_id]
     bot.send_message(message.chat.id, "Language reset. Please choose a language.")
 
+def show_typing_indicator(chat_id, stop_event):
+    while not stop_event.is_set():
+        bot.send_chat_action(chat_id=chat_id, action='typing')
+        time.sleep(2)
+
 @bot.message_handler(content_types=['text'])
 def send_text(message):
     user_id = message.from_user.id
 
+    stop_typing_event = threading.Event()
+    
+    typing_thread = threading.Thread(target=show_typing_indicator, args=(message.chat.id, stop_typing_event))
+    typing_thread.start()
+ 
     if user_id in user_languages:
         # Get the selected language (short form) for the user
         selected_language = user_languages[user_id]
@@ -126,7 +138,7 @@ def send_text(message):
                 sources.append(source)
 
         # Prepare the sources list
-        sources_text = "References:\n"
+        sources_text = ""
         for idx, source in enumerate(sources, 1):
             sources_text += f"{idx}. {source} - Page {page_number}\n"
 
@@ -136,15 +148,19 @@ def send_text(message):
         # Send the English question and answer
         #bot.send_message(message.chat.id, f"Your Question ({full_language_name}):\n{message.text}")
         
-       
         # Translate the English answer to the selected language
         translated_response = translate_text(english_response, selected_language)
         translated_sources = translate_text(sources_text, selected_language)
         
-        # Send the answer and sources in the selected language
-        bot.send_message(message.chat.id, f"{full_language_name} Answer:\n{translated_response}\n\n{translated_sources}")
+        stop_typing_event.set()
+        typing_thread.join()
 
-        
+        # Send the answer and sources in the selected language
+        bot.send_message(
+            message.chat.id, 
+            f"*{full_language_name} Answer:*\n{translated_response}\n\n*{translate_text('References', selected_language)}:*\n{translated_sources}",
+            parse_mode="Markdown"
+        )
 
 
 def main():
