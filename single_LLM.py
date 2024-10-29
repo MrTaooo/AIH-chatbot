@@ -25,7 +25,7 @@ def getResponse(question: str) -> dict:
     OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
     LANGCHAIN_API_KEY = os.getenv('LANGSMITH_API_KEY')
 
-    loader = PyPDFDirectoryLoader("./docs/")
+    loader = PyPDFDirectoryLoader("./docs/all/")
     pages = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(

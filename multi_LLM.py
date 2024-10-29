@@ -34,6 +34,7 @@ def getResponse(question: str) -> dict:
         "Health-and-Safety": "./docs/Health-and-Safety",
         "Legal-and-Financial Matters": "./docs/Legal-and-Financial Matters",
         "Help-and-Resources": "./docs/Help-and-Resources",
+        "all": "./docs/all"
     }
 
     retrievers = {}
@@ -113,11 +114,14 @@ C. Health-and-Safety
 D. Legal-and-Financial Matters
 E. Help-and-Resources
 
-Which category does the following question belong to? Please just output the letter corresponding to the category.
+Which category does the following question belong to? Please just output the letter corresponding to the category. Example: A
 
 Question: {question}
 """
         classification = llm.predict(prompt)
+
+        print("Classification:", classification)
+
         mapping = {
             "A": "Living-in-Singapore",
             "B": "Working-in-Singapore",
@@ -132,9 +136,11 @@ Question: {question}
     # Get the appropriate section for the question
     section = classify_question(question)
 
+    print("Section:", section)
+
     if section is None:
-        # Default to a section or handle accordingly
-        section = "Working-in-Singapore"
+        # Default to section with all docs or handle accordingly
+        section = "all"
 
     # Get the corresponding chain
     chain = chains[section]
