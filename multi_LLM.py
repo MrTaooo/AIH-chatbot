@@ -48,8 +48,8 @@ def getResponse(question: str) -> dict:
 
         # Split documents
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000,
-            chunk_overlap=150,
+            chunk_size=500,
+            chunk_overlap=50,
             length_function=len
         )
 
@@ -81,8 +81,8 @@ def getResponse(question: str) -> dict:
         os.environ["LANGCHAIN_PROJECT"] = "Chatbot"
 
         # Create retriever
-        #retriever=vectordb.as_retriever(search_type="similarity_score_threshold", search_kwargs={"score_threshold": .5, "k": 5})
-        retriever=vectordb.as_retriever(search_type="mmr", search_kwargs={"k": 10})
+        retriever = vectordb.as_retriever(search_type="similarity_score_threshold", search_kwargs={"score_threshold": 0.6, "k": 10})
+        # retriever=vectordb.as_retriever(search_type="mmr", search_kwargs={"k": 10})
 
         # Store retriever
         retrievers[section_name] = retriever
@@ -148,5 +148,11 @@ Question: {question}
     # Execute the chain
     result = chain({"question": question})
 
-    print(result)
+    relevant_chunks = set()
+    for doc in result['source_documents']:
+        relevant_chunks.add(doc.page_content)
+
+    # print(f"ANSWER: {result['answer']}")
+    print(f"CONTEXTS: {relevant_chunks}")
+    # print(f"RESULT: {result}")
     return {"answer": result['answer'], "source_documents": result['source_documents']}

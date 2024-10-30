@@ -128,19 +128,19 @@ def send_text(message):
         source_documents = response["source_documents"]
 
         # Extract sources from source_documents
-        sources = []
+        sources = set()
         for doc in source_documents:
             source = doc.metadata.get('source', 'Unknown Source')
             splitted_source = source.split("/")
             source = splitted_source[-1]
             page_number = doc.metadata.get('page', 'No Page')
             if source not in sources:
-                sources.append(source)
+                sources.add((source, page_number))
 
         # Prepare the sources list
         sources_text = ""
-        for idx, source in enumerate(sources, 1):
-            sources_text += f"{idx}. {source} - Page {page_number}\n"
+        for idx, (source, page) in enumerate(sources, 1):
+            sources_text += f"{idx}. {source} - Page {page}\n"
 
         # Get the full name of the selected language
         full_language_name = next((k for k, v in languages.items() if v == selected_language), selected_language)
