@@ -1,42 +1,51 @@
 from pypdf import PdfReader, PdfWriter
 import os
 
+# file_name = "mw-handy-guide-english"
+# file_name = "sgsecure-guide-for-workplaces"
+# file_name = "sgsecure-hotel-guide"
+file_name = "singpass-registration-guide"
 # Define the input PDF path
-# input_pdf_path = '../data/all/mw-handy-guide-english.pdf'
-input_pdf_path = '../docs/all/sgsecure-guide-for-workplaces.pdf'
+input_pdf_path = f'../docs/all/{file_name}.pdf'
 
 
 # Load the uploaded PDF
 with open(input_pdf_path, 'rb') as input_pdf:
     reader = PdfReader(input_pdf)
 
+    print(f"Number of pages: {len(reader.pages)}")
+
     # Define the sections with non-consecutive page ranges
-    # handy-guide
+    # mw-handy-guide-english
     # sections2 = {
-    #     "Living-in-Singapore": [(1, 6)],
+    #     "Living-in-Singapore": [(1, 7), (25, 26)],
     #     "Working-in-Singapore": [(7, 19), (27, 32)],
-    #     "Health-and-Safety": [(25, 31), (44, 45)],
-    #     "Legal-and-Financial Matters": [(20, 24), (32, 41)],
+    #     "Legal": [(12, 14), (20, 24), (27, 27), (32, 37), (39, 41)],
+    #     "Financial": [(38, 39)],
+    #     "Salary and Wages": [(12, 19)],
+    #     "Health-and-Safety": [(16, 16), (25, 31), (44, 45)],
     #     "Help-and-Resources": [(42, 43)]
     # }
 
-    # sgsecure-guide-for-workplaces
-    sections2 = {
-        "Living-in-Singapore": [(24, 26) ],
-        "Working-in-Singapore": [(2, 5), (8, 8), (11, 12), (16, 20), (24, 26)],
-        "Health-and-Safety": [(9, 12), (16, 17)],
-        "Legal-and-Financial Matters": [],
-        "Help-and-Resources": [(66, 72)]
-    }
+    # file_name = "sgsecure-guide-for-workplaces"
+    # sections2 = {
+    #     "Living-in-Singapore": [(24, 26)],
+    #     "Working-in-Singapore": [(2, 5), (8, 8), (11, 12), (16, 20), (24, 26)],
+    #     "Health-and-Safety": [(9, 12), (16, 17)],
+    #     "Help-and-Resources": [(28, 29)]
+    # }
 
     # sgsecure-hotel-guide
     # sections2 = {
-    #     "Living-in-Singapore": [],
-    #     "Working-in-Singapore": [(8, 9), (12, 12), (14, 39), (42, 47), (48, 51), (54, 55)],
-    #     "Health-and-Safety": [(42, 49), (58, 65)],
-    #     "Legal-and-Financial Matters": [],
-    #     "Help-and-Resources": [(12, 12), (48, 49), (66, 72)]
+    #     "Working-in-Singapore": [(12, 12), (54, 55)],
+    #     "Health-and-Safety": [(12, 12), (14, 30), (32, 39), (42, 51), (54, 55), (58, 69)],
+    #     "Help-and-Resources": [(12, 12), (66, 72)]
     # }
+
+    sections2 = {
+        "Living-in-Singapore": [(3, 29)],
+        "Working-in-Singapore": [(31, 33)],
+    }
 
     # Base directory to save the PDF files
     base_dir = '../docs'
@@ -55,14 +64,15 @@ with open(input_pdf_path, 'rb') as input_pdf:
                 writer.add_page(reader.pages[page_num + 1])
 
         # Save the PDF to the section's directory
-        output_path = os.path.join(section_dir, f"sgsecure-guide-for-workplaces.pdf")
+        output_path = os.path.join(section_dir, f"{file_name}.pdf")
         with open(output_path, 'wb') as output_pdf:
             writer.write(output_pdf)
         return output_path
 
     # Extract and save PDFs for each section
     for section, pages in sections2.items():
-        extract_section(section, pages)
+        if pages != []:
+            extract_section(section, pages)
 
 
 """
