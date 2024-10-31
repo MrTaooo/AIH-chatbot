@@ -32,7 +32,10 @@ def getResponse(question: str) -> dict:
         "Living-in-Singapore": "./docs/Living-in-Singapore",
         "Working-in-Singapore": "./docs/Working-in-Singapore",
         "Health-and-Safety": "./docs/Health-and-Safety",
-        "Legal-and-Financial Matters": "./docs/Legal-and-Financial Matters",
+        "Legal": "./docs/Legal",
+        "Financial": "./docs/Financial",
+        "Work-Permit": "./docs/Work-Permit",
+        "Salary-and-Wages": "./docs/Salary-and-Wages",
         "Help-and-Resources": "./docs/Help-and-Resources",
         "all": "./docs/all"
     }
@@ -111,8 +114,11 @@ def getResponse(question: str) -> dict:
 A. Living-in-Singapore
 B. Working-in-Singapore
 C. Health-and-Safety
-D. Legal-and-Financial Matters
-E. Help-and-Resources
+D. Legal
+E. Financial
+F. Work-Permit
+G. Salary-and-Wages
+H. Help-and-Resources
 
 Which category does the following question belong to? Please just output the letter corresponding to the category. Example: A
 
@@ -126,8 +132,11 @@ Question: {question}
             "A": "Living-in-Singapore",
             "B": "Working-in-Singapore",
             "C": "Health-and-Safety",
-            "D": "Legal-and-Financial Matters",
-            "E": "Help-and-Resources"
+            "D": "Legal",
+            "E": "Financial",
+            "F": "Work-Permit",
+            "G": "Salary-and-Wages",
+            "H": "Help-and-Resources"
         }
         category = classification.strip().upper()
         section = mapping.get(category, None)

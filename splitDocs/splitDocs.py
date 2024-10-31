@@ -1,10 +1,10 @@
 from pypdf import PdfReader, PdfWriter
 import os
 
-# file_name = "mw-handy-guide-english"
+file_name = "mw-handy-guide-english"
 # file_name = "sgsecure-guide-for-workplaces"
 # file_name = "sgsecure-hotel-guide"
-file_name = "singpass-registration-guide"
+# file_name = "singpass-registration-guide"
 # Define the input PDF path
 input_pdf_path = f'../docs/all/{file_name}.pdf'
 
@@ -17,15 +17,16 @@ with open(input_pdf_path, 'rb') as input_pdf:
 
     # Define the sections with non-consecutive page ranges
     # mw-handy-guide-english
-    # sections2 = {
-    #     "Living-in-Singapore": [(1, 7), (25, 26)],
-    #     "Working-in-Singapore": [(7, 19), (27, 32)],
-    #     "Legal": [(12, 14), (20, 24), (27, 27), (32, 37), (39, 41)],
-    #     "Financial": [(38, 39)],
-    #     "Salary and Wages": [(12, 19)],
-    #     "Health-and-Safety": [(16, 16), (25, 31), (44, 45)],
-    #     "Help-and-Resources": [(42, 43)]
-    # }
+    sections2 = {
+        "Living-in-Singapore": [(1, 7), (25, 26)],
+        "Working-in-Singapore": [(7, 19), (21, 21), (27, 32)],
+        "Legal": [(12, 14), (20, 24), (27, 27), (32, 37), (39, 41)],
+        "Financial": [(38, 39)],
+        "Salary and Wages": [(12, 19)],
+        "Health-and-Safety": [(16, 16), (25, 31), (44, 45)],
+        "Help-and-Resources": [(42, 43)],
+        "Work-Permit": [(20, 20)]
+    }
 
     # file_name = "sgsecure-guide-for-workplaces"
     # sections2 = {
@@ -42,10 +43,10 @@ with open(input_pdf_path, 'rb') as input_pdf:
     #     "Help-and-Resources": [(12, 12), (66, 72)]
     # }
 
-    sections2 = {
-        "Living-in-Singapore": [(3, 29)],
-        "Working-in-Singapore": [(31, 33)],
-    }
+    # sections2 = {
+    #     "Living-in-Singapore": [(3, 29)],
+    #     "Working-in-Singapore": [(31, 33)],
+    # }
 
     # Base directory to save the PDF files
     base_dir = '../docs'
