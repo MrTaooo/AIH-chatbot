@@ -198,7 +198,7 @@ def getResponse(question: str) -> dict:
     # Execute the chain
     result = chain({"question": question})
 
-    print("Result:", result)
+    # print("Result:", result)
 
     sources = set()
 
@@ -214,5 +214,5 @@ def getResponse(question: str) -> dict:
 
     # print(f"ANSWER: {result['answer']}")
     print(f"CONTEXTS: {relevant_chunks}")
-    # print(f"RESULT: {result}")
-    return {"answer": result['answer'], "source_documents": result['source_documents']}
+    print(f"RESULT: {result}")
+    return {"answer": result['answer'], "source_documents": result['source_documents'], "relevant_chunks": relevant_chunks}

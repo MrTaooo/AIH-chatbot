@@ -3,11 +3,11 @@ import telebot
 from dotenv import load_dotenv
 import threading
 import time
-from translate import Translator  # Import the Translator class from the translate library
 import single_LLM 
 import multi_LLM 
 import json
 import multi_context
+from deep_translator import GoogleTranslator
 
 load_dotenv()
 
@@ -22,7 +22,7 @@ languages = {
     "Tamil": "ta",
     "Chinese": "zh-CN",
     "Malay": "ms",
-    "Bangla": "bn",
+    "Bengali": "bn",
     "Burmese": "my", 
 }
 
@@ -75,14 +75,18 @@ def handle_language_selection(message):
             message.chat.id, 'Sorry, something seems to have gone wrong! Please try again later.')
 
 def translate_text(text, dest_language):
-    translator = Translator(to_lang=dest_language)
-    translated_text = ""
-    for i in range(0, len(text), MAX_TRANSLATION_CHARACTERS):
-        chunk = text[i:i + MAX_TRANSLATION_CHARACTERS]
-        translated_chunk = translator.translate(chunk)
-        translated_text += translated_chunk
-    # translated_text += translator.translate("\nYou can ask the next question! ")
+    translated_text = GoogleTranslator(source='auto', target=dest_language).translate(text)
     return translated_text
+
+# def translate_text(text, dest_language):
+#     translator = Translator(to_lang=dest_language)
+#     translated_text = ""
+#     for i in range(0, len(text), MAX_TRANSLATION_CHARACTERS):
+#         chunk = text[i:i + MAX_TRANSLATION_CHARACTERS]
+#         translated_chunk = translator.translate(chunk)
+#         translated_text += translated_chunk
+#     # translated_text += translator.translate("\nYou can ask the next question! ")
+#     return translated_text
 
 @bot.message_handler(commands=['reset'])
 def reset_language(message):

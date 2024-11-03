@@ -120,7 +120,8 @@ F. Work-Permit
 G. Salary-and-Wages
 H. Help-and-Resources
 
-Which category does the following question belong to? Please just output the letter corresponding to the category. Example: A
+Which category does the following question belong to? Please just output the letter corresponding to the category. 
+Example: A
 
 Question: {question}
 """
@@ -163,5 +164,5 @@ Question: {question}
 
     # print(f"ANSWER: {result['answer']}")
     print(f"CONTEXTS: {relevant_chunks}")
-    # print(f"RESULT: {result}")
-    return {"answer": result['answer'], "source_documents": result['source_documents']}
+    print(f"RESULT: {result}")
+    return {"answer": result['answer'], "source_documents": result['source_documents'], "relevant_chunks": relevant_chunks}
