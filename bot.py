@@ -146,7 +146,7 @@ def send_text(message):
         # Prepare the sources list
         sources_text = ""
         for idx, (source, page) in enumerate(sources, 1):
-            sources_text += f"{idx}. {source} - Page {page}\n"
+            sources_text += f"{idx}. {source} - Page {page + 1}\n"
 
         # Get the full name of the selected language
         full_language_name = next((k for k, v in languages.items() if v == selected_language), selected_language)
