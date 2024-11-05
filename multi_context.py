@@ -12,6 +12,8 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
 import json
+import chromadb
+
 
 load_dotenv('./.env')
 
@@ -107,6 +109,22 @@ def getAgent(source_docs: str):
     return retriever
 
 
+def getRetriever(sectionName):
+
+    embedding = OpenAIEmbeddings()
+
+    persistent_client = chromadb.PersistentClient(path="./docs/vectordb")
+    vector_store_from_client = Chroma(
+        client=persistent_client,
+        collection_name=sectionName,
+        embedding_function=embedding,
+    )
+    retriever = vector_store_from_client.as_retriever(
+        search_type="similarity_score_threshold", search_kwargs={"score_threshold": 0.6,}
+    )
+
+    return retriever
+
 def getResponse(question: str) -> dict:
     """
     A modified implementation to define routing logic based on keywords
@@ -165,8 +183,9 @@ def getResponse(question: str) -> dict:
 
         # Create chain
     
-    
-    retriever = getAgent(sections[section]["source_docs"])
+    # retriever = getAgent(sections[section]["source_docs"])
+
+    retriever = getRetriever(section)
 
     print("Retriever:", retriever)
 

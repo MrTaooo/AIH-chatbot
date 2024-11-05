@@ -128,8 +128,8 @@ def send_text(message):
 
         # Get the response in English
         # response = single_LLM.getResponse(english_question) ############ UNCOMMENT FOR SINGLE LLM
-        response = multi_LLM.getResponse(english_question) ############ UNCOMMENT FOR MULTI LLM
-        # response = multi_context.getResponse(english_question) ############ UNCOMMENT FOR MULTI CONTEXT
+        # response = multi_LLM.getResponse(english_question) ############ UNCOMMENT FOR MULTI LLM
+        response = multi_context.getResponse(english_question) ############ UNCOMMENT FOR MULTI CONTEXT
         english_response = response["answer"]
         source_documents = response["source_documents"]
 
