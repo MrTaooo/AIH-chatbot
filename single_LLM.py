@@ -87,8 +87,12 @@ def getResponse(question: str) -> dict:
         memory=memory
     )
     
-
     result = qa({"question": question})
 
-    print(result)
+    relevant_chunks = set()
+    for doc in result['source_documents']:
+        relevant_chunks.add(doc.page_content)
+
+    print(f"CONTEXTS: {relevant_chunks}")
+    # print(result)
     return {"answer": result['answer'], "source_documents": result['source_documents']}
