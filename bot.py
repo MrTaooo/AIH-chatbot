@@ -33,7 +33,7 @@ user_languages = {}
 user_questions = {}
 
 # Maximum number of characters for translation per query
-MAX_TRANSLATION_CHARACTERS = 500
+MAX_TRANSLATION_CHARACTERS = 5000
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -74,9 +74,38 @@ def handle_language_selection(message):
         bot.send_message(
             message.chat.id, 'Sorry, something seems to have gone wrong! Please try again later.')
 
+
 def translate_text(text, dest_language):
-    translated_text = GoogleTranslator(source='auto', target=dest_language).translate(text)
-    return translated_text
+    # Tokenize text into sentences
+    sentences = [s.strip() + '.' for s in text.split('.') if s.strip()]
+    chunks = []
+    current_chunk = ""
+    
+    for sentence in sentences:
+        # print(sentence)
+        # Check if adding the sentence would exceed the limit
+        if len(current_chunk) + len(sentence) + 1 <= MAX_TRANSLATION_CHARACTERS:
+            current_chunk += sentence + " "
+        else:
+            chunks.append(current_chunk.strip())
+            current_chunk = sentence + " "
+    
+    # Add the last chunk if it's non-empty
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+    
+    # Translate each chunk
+    translated_text = ""
+    for chunk in chunks:
+        # print(chunk)
+        translated_chunk = GoogleTranslator(source='auto', target=dest_language).translate(chunk)
+        translated_text += translated_chunk + " "
+    
+    return translated_text.strip()
+
+# def translate_text(text, dest_language):
+#     translated_text = GoogleTranslator(source='auto', target=dest_language).translate(text)
+#     return translated_text
 
 # def translate_text(text, dest_language):
 #     translator = Translator(to_lang=dest_language)

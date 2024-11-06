@@ -10,7 +10,7 @@
     "wp-online-business": "https://www.mom.gov.sg/eservices/services/wp-online-for-businesses-and-employment-agencies",
     "short-work-permit-extension": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/get-a-short-extension-for-work-permit",
     "ofwas": "https://www.mom.gov.sg/eservices/services/ofwas",
-    "paying-salary": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/paying-the-salary",
+    "paying-salary-foreign-worker": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/paying-the-salary",
     "fixed-monthly-salary": "https://www.mom.gov.sg/faq/employment-pass/what-is-a-fixed-monthly-salary",
     "filing-claims": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/employees-how-to-claim#report-the-accident-to-employer",
     "raise-wsh-issues": "https://www.mom.gov.sg/workplace-safety-and-health/safe-measures/worker-level/empowering-workers-and-members-of-public-to-raise-wsh-issues",
@@ -41,7 +41,13 @@
     "variable-wage-components": "https://www.mom.gov.sg/employment-practices/salary/variable-wage-components",
     "key-facts-on-work-permit": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/key-facts",
     "managing-employment-disputes": "https://www.mom.gov.sg/employment-practices/managing-employment-disputes",
-    "paying-lesser-declared": "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-i-pay-my-foreign-workers-less-than-the-salary-declared-in-the-work-permit-application-if-they-have-worked-less-eg-because-they-are-paid-on-a-piece-rate"
+    "paying-lesser-declared": "https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/can-i-pay-my-foreign-workers-less-than-the-salary-declared-in-the-work-permit-application-if-they-have-worked-less-eg-because-they-are-paid-on-a-piece-rate",
+    "staying-safe-from-scams": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/publications-and-resources/staying-safe-from-scams",
+    "public-cleanliness": "https://www.nea.gov.sg/our-services/public-cleanliness",
+    "scamshield-helpline": "https://www.police.gov.sg/Advisories/Crime/Scams",
+    "drinking-laws-in-sg": "https://www.3mk.sg/blogs/three-musketeers-liquor-blog/drinking-laws-in-singapore-2023",
+    "jaywalk": "https://www.nas.gov.sg/archivesonline/photographs/record-details/aa3a3c39-1162-11e3-83d5-0050568939ad"
+
 }
 
 

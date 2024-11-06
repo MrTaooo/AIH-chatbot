@@ -30,18 +30,22 @@ with open('source.json', 'r') as f:
     # Orchestrator function to classify the question
 def classify_question(question):
     prompt = f"""Given the following categories:
-A. Living-in-Singapore - Questions about daily life outside of work, including housing, transportation, local customs, recreation, neighbour, dorm life and communication with family.
+A. Living-in-Singapore - Questions about daily life outside of work, including housing, transportation, local customs, recreation, neighbors, dorm life, and communication with family.
 B. Working-in-Singapore - Questions about employment terms, workplace rights, working hours, job expectations, and day-to-day work experiences.
 C. Health-and-Safety - Questions about health care access, workplace safety protocols, terrorism, mental well-being, and injury prevention.
-D. Legal - Questions about rights, legal obligations, employment laws, and dispute resolution.
-E. Financial - Questions on managing money, banking, remittance, understanding deductions, and savings options.
+D. Legal - Questions about laws in Singapore (e.g., jaywalking, drinking, littering etc.), legal rights, obligations, employment laws, penalties, reporting scams to authorities, and handling impersonations of government agencies.
+E. Financial - Questions on managing money, banking, remittance, understanding deductions, scam prevention, financial recovery steps, responding to scam messages, and savings options.
 F. Work-Permit - Questions about work permit eligibility, renewal processes, permit transfers, and employer responsibilities.
 G. Salary-and-Wages - Questions about pay, understanding payslips, salary expectations, disputes, and complaints about wages or deductions.
 H. Help-and-Resources - Questions about support services, emergency contacts, and assistance from NGOs or government resources.
 
-Which category does the following question belong to? Please just output the letter corresponding to the category. 
+Determine which category best fits the user's question. Please respond only with the letter corresponding to the category. 
+
 Example Response: A
-If none of the category fits, please respond "None"
+- If the question is about information for other countries (e.g., China, India, Malaysia), respond with "Others".
+- If none of the categories fit, respond "None".
+
+[Available Options: A, B, C, D, E, F, G, H, Others, None]
 
 Question: {question}
 """
@@ -60,6 +64,10 @@ Question: {question}
         "H": "Help-and-Resources"
     }
     category = classification.strip().upper()
+
+    if classification == "Others":
+        return "Others"
+
     section = mapping.get(category, None)
     return section
 
@@ -134,6 +142,12 @@ def getResponse(question: str) -> dict:
     # Get the appropriate section for the question
     section = classify_question(question)
 
+    if section == "Others":
+        return {"answer": "I'm sorry we don't have information about other countries. You may ask questions related to Singapore, we will be happy to help!",
+                "source_documents": set(),
+                "relevant_chunks": set()
+                }
+
     print("Section:", section)
 
     if section is None:
@@ -156,11 +170,11 @@ def getResponse(question: str) -> dict:
         },
         "Legal": {
             "source_docs": "./docs/Legal",
-            "template": "You are responsible for providing information on legal matters, such as employment rights, documentation requirements, dealing with disputes, and ensuring workers understand local laws affecting their rights."
+            "template": "You are responsible for providing information on legal matters, including employment rights, documentation requirements, dispute resolution, and local laws affecting workers' rights. You also provide guidance on reporting scams, understanding scam-related laws, and legal recourse options for those affected by scams."
         },
         "Financial": {
             "source_docs": "./docs/Financial",
-            "template": "You are responsible for assisting with financial matters, including banking, savings options, remittance processes, understanding deductions, and financial literacy resources to help workers manage their earnings effectively."
+            "template": "You are responsible for assisting with financial matters, including banking, savings options, remittance processes, and financial literacy resources to help workers manage their earnings effectively. Additionally, you provide preventive advice on avoiding financial scams, recovering from scam-related losses, and other scam-related financial implications."
         },
         "Work-Permit": {
             "source_docs": "./docs/Work-Permit",
@@ -180,8 +194,7 @@ def getResponse(question: str) -> dict:
         }
     }
 
-
-        # Create chain
+    # Create chain
     
     # retriever = getAgent(sections[section]["source_docs"])
 
@@ -199,7 +212,8 @@ def getResponse(question: str) -> dict:
     template = sections[section]["template"]
     
     # Define template prompt
-    general_template = f"""You are a friendly chatbot helping a migrant worker settle down in Singapore, more specifically MOM's Settling-in Programme (SIP). {template} Use the following pieces of context to answer the question at the end. Always say Thanks for asking at the end of the answer.
+    general_template = f"""You are a friendly chatbot helping a migrant worker settle down in Singapore, more specifically MOM's Settling-in Programme (SIP). {template} Use the following pieces of context to answer the question at the end. If the question is about scams, please provide concise scam prevention advice and tell them to avoid sharing personal or financial information with unknown sources. Stay safe! 
+    At the end of the answer, please say "Thanks for Asking!"
     {{context}}
     Question: {{question}}
     Helpful Answer:"""
