@@ -33,8 +33,8 @@ def classify_question(question):
 A. Living-in-Singapore - Questions about daily life outside of work, including housing, transportation, local customs, recreation, neighbors, dorm life, and communication with family.
 B. Working-in-Singapore - Questions about employment terms, workplace rights, working hours, job expectations, and day-to-day work experiences.
 C. Health-and-Safety - Questions about health care access, workplace safety protocols, terrorism, mental well-being, and injury prevention.
-D. Legal - Questions about laws in Singapore (e.g., jaywalking, drinking, littering etc.), legal rights, obligations, employment laws, penalties, reporting scams to authorities, and handling impersonations of government agencies.
-E. Financial - Questions on managing money, banking, remittance, understanding deductions, scam prevention, financial recovery steps, responding to scam messages, and savings options.
+D. Legal - Questions about laws in Singapore (e.g., jaywalking, drinking, littering, etc.), legal rights, obligations, **reporting scams to authorities (e.g., MOM or the police), and handling impersonations of government agencies legally**.
+E. Financial - Questions on managing money, banking, remittance, understanding deductions, **responding to scam or fraud attempts (including calls or messages from impostors), steps to protect against scams, financial recovery after scams, scam prevention tips, and savings options**.
 F. Work-Permit - Questions about work permit eligibility, renewal processes, permit transfers, and employer responsibilities.
 G. Salary-and-Wages - Questions about pay, understanding payslips, salary expectations, disputes, and complaints about wages or deductions.
 H. Help-and-Resources - Questions about support services, emergency contacts, and assistance from NGOs or government resources.
