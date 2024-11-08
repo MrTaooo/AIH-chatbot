@@ -8,6 +8,7 @@ import multi_LLM
 import json
 import multi_context
 from deep_translator import GoogleTranslator
+import re
 
 load_dotenv()
 
@@ -87,13 +88,20 @@ def handle_language_selection(message):
 
 
 def translate_text(text, dest_language):
-    # Tokenize text into sentences
-    sentences = [s.strip() + '.' for s in text.split('.') if s.strip()]
+    # Step 1: Identify and replace URLs with placeholders
+    url_pattern = r'(https?://[^\s]+)'
+    urls = re.findall(url_pattern, text)  # Find all URLs
+    for i, url in enumerate(urls):
+        text = text.replace(url, f"[URL_PLACEHOLDER_{i}]")  # Replace each URL with a placeholder
+    
+    # Step 2: Split text into sentences simply by period followed by a space or newline
+    sentences = re.split(r'(?<=\.) (?=\S)', text)
+    
+    # Step 3: Chunk sentences to meet character limit
     chunks = []
     current_chunk = ""
     
     for sentence in sentences:
-        # print(sentence)
         # Check if adding the sentence would exceed the limit
         if len(current_chunk) + len(sentence) + 1 <= MAX_TRANSLATION_CHARACTERS:
             current_chunk += sentence + " "
@@ -105,12 +113,15 @@ def translate_text(text, dest_language):
     if current_chunk:
         chunks.append(current_chunk.strip())
     
-    # Translate each chunk
+    # Step 4: Translate each chunk
     translated_text = ""
     for chunk in chunks:
-        # print(chunk)
         translated_chunk = GoogleTranslator(source='auto', target=dest_language).translate(chunk)
-        translated_text += translated_chunk + " "
+        translated_text += translated_chunk + "\n\n"  # Add double newlines to match original formatting
+    
+    # Step 5: Restore URLs in translated text
+    for i, url in enumerate(urls):
+        translated_text = translated_text.replace(f"[URL_PLACEHOLDER_{i}]", url)
     
     return translated_text.strip()
 
@@ -197,15 +208,25 @@ def send_text(message):
         # Translate the English answer to the selected language
         translated_response = translate_text(english_response, selected_language)
         translated_sources = translate_text(sources_text, selected_language)
+        print("TRANSLATED RESPONSE", translated_response)
         
         stop_typing_event.set()
         typing_thread.join()
 
+        def escape_markdown_v2(text):
+            # Only escape Markdown v2 required characters, while allowing numbers and URLs to display properly
+            return re.sub(r"([_*[\]()~`>#+=|{}.!-])", r"\\\1", text)
+
+        # Escape special characters
+        escaped_response = escape_markdown_v2(translated_response)
+        print("ESCAPED RESPONSE", escaped_response)
+        escaped_sources = escape_markdown_v2(translated_sources)
+
         # Send the answer and sources in the selected language
         bot.send_message(
             message.chat.id, 
-            f"*{full_language_name} Answer:*\n{translated_response}\n\n*{translate_text('References', selected_language)}:*\n{translated_sources}",
-            parse_mode="Markdown"
+            f"*{full_language_name} Answer:*\n{escaped_response}\n\n*{translate_text('References', selected_language)}:*\n{escaped_sources}",
+            parse_mode="MarkdownV2"
         )
 
 
