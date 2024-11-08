@@ -19,11 +19,11 @@ bot.set_webhook()
 # Language options
 languages = {
     "English": "en",
-    "Tamil": "ta",
-    "Chinese": "zh-CN",
-    "Malay": "ms",
-    "Bengali": "bn",
-    "Burmese": "my", 
+    "Tamil (தமிழ்)": "ta",
+    "Chinese (华语)": "zh-CN",
+    "Malay (Bahasa Melayu)": "ms",
+    "Bengali (বাংলা)": "bn",
+    "Burmese (မြန်မာဘာသာ)": "my",
 }
 
 # Create a dictionary to store the selected language for each user
@@ -68,7 +68,18 @@ def handle_language_selection(message):
         user_languages[user_id] = selected_language
 
         # Ask the user to enter their question in the chosen language
-        bot.send_message(message.chat.id, "Great choice! Please enter your question in this language:")
+        if selected_language == "ta":
+            bot.send_message(message.chat.id, "சிறந்த தேர்வு! தயவுசெய்து உங்கள் கேள்வியை இந்த மொழியில் உள்ளிடுங்கள்:")
+        elif selected_language == "zh-CN":
+            bot.send_message(message.chat.id, "很好的选择！请用这种语言输入您的问题：")
+        elif selected_language == "ms":
+            bot.send_message(message.chat.id, "Pilihan yang bagus! Sila masukkan soalan anda dalam bahasa ini:")
+        elif selected_language == "bn":
+            bot.send_message(message.chat.id, "দারুণ পছন্দ! অনুগ্রহ করে এই ভাষায় আপনার প্রশ্নটি লিখুন:")
+        elif selected_language == "my":
+            bot.send_message(message.chat.id, "ရွေးချယ်မှုအတွက်ကျေးဇူးတင်ပါသည်! ဒီဘာသာစကားဖြင့်သင်၏မေးခွန်းကိုရိုက်ထည့်ပါ:")
+        else:
+            bot.send_message(message.chat.id, "Great choice! Please enter your question in this language:")
 
     except Exception as e:
         bot.send_message(
@@ -156,9 +167,9 @@ def send_text(message):
             english_question = message.text
 
         # Get the response in English
-        response = single_LLM.getResponse(english_question) ############ UNCOMMENT FOR SINGLE LLM
+        # response = single_LLM.getResponse(english_question) ############ UNCOMMENT FOR SINGLE LLM
         # response = multi_LLM.getResponse(english_question) ############ UNCOMMENT FOR MULTI LLM
-        # response = multi_context.getResponse(english_question) ############ UNCOMMENT FOR MULTI CONTEXT
+        response = multi_context.getResponse(english_question) ############ UNCOMMENT FOR MULTI CONTEXT
         english_response = response["answer"]
         source_documents = response["source_documents"]
 
