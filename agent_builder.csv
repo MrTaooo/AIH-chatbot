@@ -1,0 +1,646 @@
+﻿question,ground_truth,answer,contexts
+Good place to send money home?,Automated Remittance Kiosk Use authorised remittance kiosks located in dormitories or at a recreation centre Unlicensed remittance agents such as hawala or hundi brokers may run away with your money. Online Remittance Websites and Mobile Apps Use only licensed online remittance services and mobile apps. Never send money home through WhatsApp or any instant messaging platforms. Check if the remittance company is licensed by searching their name on Monetary Authority of Singapore’s website at https://eservices.mas.gov.sg/fid.,"You can use authorized remittance kiosks, licensed online services, or ask your employer for assistance. Remember to only use licensed services to avoid scams. I am 80% confident in my response. I referenced the information from the Migrant Worker Handy Guide.","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mw-handy-guide-english.pdf#page=1"",
+            ""text"": ""Remit Money Home Safely • Automated Remittance Kiosk Use authorised remittance kiosks located in dormitories or at a recreation centre Unlicensed remittance agents such as hawala or hundi brokers may run away with your money."",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""text"": ""• Ask your Employer for Assistance If you are unable to send money home on your own, ask your employer to assist you. Your employer must show you proof of the successful remittance transaction. It is not safe to carry large amounts of cash in crowded public places."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mw-handy-guide-english.pdf#page=2"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""text"": ""Remit Money Home Safely • Automated Remittance Kiosk Use authorised remittance kiosks located in dormitories or at a recreation centre Unlicensed remittance agents such as hawala or hundi brokers may run away with your money. • Online Remittance Websites and Mobile Apps Use only licensed online remittance services and mobile apps. Never send money home through WhatsApp or any instant messaging platforms. Check if the remittance company is licensed by searching their name on Monetary Authority of Singapore’s website at https://eservices.mas.gov.sg/fid."",
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mw-handy-guide-english.pdf#page=1""
+        },
+        {
+            ""text"": ""Watch the video to find out how to protect yourself against phishing scams. https://youtu.be/j9-EMJlNkao What is an internet love scam?"",
+            ""title"": ""staying-safe-from-scams"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/staying-safe-from-scams.pdf#page=1""
+        },
+        {
+            ""title"": ""mdw-money-management-guide-english"",
+            ""text"": ""If you do not have an emergency savings fund yet, make it your first SMART savings goal."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mdw-money-management-guide-english.pdf#page=17""
+        },
+        {
+            ""text"": ""First, estimate your: Income your salary and rest day compensation Remittance how much you need to send home Monthly Savings Goal how much you need to save to reach your goals MONEY MANAGEMENT GUIDE FOR MIGRANT DOMESTIC WORKERS Income $______ Remittance - $______ Monthly Savings Goal - $______ = Balance $______ Try your best to stick to your budget!"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mdw-money-management-guide-english.pdf#page=14"",
+            ""title"": ""mdw-money-management-guide-english""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/resourceguidepamphleteng.pdf#page=4"",
+            ""text"": ""A typical modus operandi by scam syndicates is to move scammed monies quickly between multiple bank accounts, including to overseas bank accounts."",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mw-handy-guide-english.pdf#page=1"",
+            ""text"": ""38 MONEY MATTERS Good Financial Habits Remember why you came to Singapore to work. It is to earn money to send home to your family. It is important to manage your money so that you have enough to spend and save. 1. Learn how to budget Budgeting means planning what to do with your money. Understand what your needs are, e.g. pay for your family’s healthcare or education expenses, and then plan how much to save. You should put aside money for your necessities. 2. Grow your savings Set aside an amount of money monthly, and deposit it into your bank account. Plan for what you can do back home with this money, e.g. build a new home, set up a business. 3. Cut down on unnecessary spending – Before purchasing an item, ask yourself whether you really need it.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/resourceguidepamphleteng.pdf#page=4"",
+            ""text"": ""Why is it so challenging for the Police to recover my money if it has been transferred out of Singapore? How long does the Police take to return my money if it is recovered?"",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/resourceguidepamphleteng.pdf#page=3"",
+            ""text"": ""If you have not heard from your IO in the last six months, you may wish to contact the IO during office hours from 8.30am to 6pm on Mondays to Thursdays, and 8.30am to 5.30pm on Fridays (excluding public holidays).""
+        },
+        {
+            ""text"": ""17 Protect Yourself from Emergencies Build an emergency savings fund to prepare for unexpected circumstances, such as when you need to send money back home urgently to pay for your loved one’s medical bills. Your emergency savings fund should be 3 to 6 months’ worth of your monthly living expenses. If you do not have an emergency savings fund yet, make it your first S.M.A.R.T. savings goal. Having enough savings can help you avoid situations where you need to borrow money. If you need money urgently but do not have enough savings, consider speaking to your employer to discuss ways to resolve this problem. PART III: PROTECT YOURSELF AND YOUR MONEY PART III: PROTECT YOURSELF AND YOUR MONEY"",
+            ""title"": ""mdw-money-management-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mdw-money-management-guide-english.pdf#page=17""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/staying-safe-from-scams.pdf#page=2"",
+            ""text"": ""To find out more about other types of scams, such as loan and e-commerce scams, visit Scamalert.sg. Real stories Feeling lost after falling victim to scams? You're not alone. Watch these real stories of MDWs as they share their experiences and how they sought help. https://youtu.be/e5Mr4WjTLoM"",
+            ""title"": ""staying-safe-from-scams""
+        },
+        {
+            ""text"": ""To find out more about other types of scams, such as loan and e-commerce scams, visit Scamalert.sg. Real stories Feeling lost after falling victim to scams? You're not alone. Watch these real stories of MDWs as they share their experiences and how they sought help. https://youtu.be/e5Mr4WjTLoM."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/staying-safe-from-scams.pdf#page=2"",
+            ""title"": ""staying-safe-from-scams""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mw-handy-guide-english.pdf#page=2"",
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""39 Seek Help If you face financial difficulties, approach your employer to discuss what can be done. You can also contact the Migrant Workers’ Centre (MWC) at 6536 2692 for advice. • Ask your Employer for Assistance If you are unable to send money home on your own, ask your employer to assist you. Your employer must show you proof of the successful remittance transaction. It is not safe to carry large amounts of cash in crowded public places. Do not engage unlicensed remittance agents such as hawala or hundi brokers as they may run away with your money. It is illegal to operate an unlicensed remittance business, or to be involved with one. If caught doing so, you will be fined up to $100,000 or jailed for up to 2 years, or both. Your work permit will be revoked.""
+        }
+    ]
+}"
+Who can help me if I cannot remit money back home?,"If you are unable to send money home on your own, ask your employer to assist you. Your employer must show you proof of the successful remittance transaction. It is not safe to carry large amounts of cash in crowded public places. Do not engage unlicensed remittance agents such as hawala or hundi brokers as they may run away with your money. ","I understand you're having trouble remitting money home. The chances of recovering money transferred overseas are very low. The Singapore Police Force cannot freeze or seize overseas accounts; they can only notify foreign counterparts and seek their assistance. The recovery process depends on the laws of the foreign country and the internal business policies of the foreign banks involved. I am 95% confident in my response. I referenced the information from [A5 Anti-Scam Resource Guide Pamphlet, pages 4]. Is there anything else I can help you with?","{
+    ""snippets"": [
+        {
+            ""text"": ""Overseas accounts reside outside of Singapore’s jurisdiction and the Singapore Police Force will not be able to exercise any legal powers to freeze or seize the account or compel a foreign-based bank to reverse the transactions. In such cases, the Police can only notify our foreign counterparts of the incident and seek their assistance to investigate the matter. It also depends on the laws of the foreign country and the internal business policies of the foreign banks involved. The chances of recovery once the funds have been transferred out of Singapore is very low, and it is likely that the money may no longer be recoverable."",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4""
+        },
+        {
+            ""text"": ""The Police will only be able to return any seized monies to victims upon the conclusion of investigations. The amount of time it takes to complete investigations, and correspondingly, the amount of time it takes for seized monies to be returned to the victims, depends on many different factors and differs across the various types of scams. For example, whether there are multiple claimants and whether the monies are still relevant for the purposes of investigation or court trial or other court proceedings. I was a victim of an online scam and was cheated of my money. Will the Police be able to recover my money? A typical modus operandi by scam syndicates is to move scammed monies quickly between multiple bank accounts, including to overseas bank accounts. If the money is transferred overseas, fund recovery can be challenging as different jurisdictions have different recovery process and legislation. The chance of recovery once the funds have been transferred out of Singapore is very low, and it is likely that the money may no longer be recoverable."",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4""
+        }
+    ]
+}"
+"If I am sick, what doctor can I go to?","You may go to any healthcare providers under the Primary Care Plan (PCP). This can be done through telemedicine or by visiting the medical centre itself. You may visit the link to find out which healthcare providers are under the PCP
+https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services","""You can see a doctor at the MOM medical centre, via telemedicine, or at a GP clinic under the management of your Anchor Operator. You can find the MOM Medical Centre that you are enrolled with on your FWMOMCare App under “Find a Doctor”. You can also use telemedicine services via your FWMOMCare App. I am 95% confident in my response. I referenced the information from pcpfaqs.pdf (page 18) and mw-handy-guide-english.pdf (page 7).","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/pcpfaqs.pdf#page=18"",
+            ""text"": ""4. FAQs for PCP-eligible Workers 4.1. What am I covered for under the PCP? • You can see the doctor at the MOM medical centre or via telemedicine for all conditions managed at primary care. You may also visit a GP clinic under the management of your Anchor Operator or in partnership with the Anchor Operator. • You will also have one basic health screening each year. • If your work pass is due for renewal, you will do your medical examination with your Anchor Operator. 4.2. Which doctor should I go to when I feel sick? • You can find the MOM Medical Centre that you are enrolled with on your FWMOMCare App under “Find a Doctor”. • Please click on “Find a Doctor” to book an appointment to see the doctor. Once your appointment is confirmed, you may receive an SMS to tell you the date, time, location of the MOM Medical Centre you should go to and the pick-up time and location if you need transport."",
+            ""title"": ""pcpfaqs""
+        },
+        {
+            ""title"": ""pcpfaqs"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/pcpfaqs.pdf#page=18"",
+            ""text"": ""You may also call the hotline to make an appointment at the MOM Medical Centre. • You can also use telemedicine services via your FWMOMCare App. • If your dormitory has a clinic managed by your Anchor Operator, you may walk""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mw-handy-guide-english.pdf#page=7"",
+            ""text"": ""30 SEEKING MEDICAL TREATMENT Inform your employer when you are sick and that you need to see a doctor. You can see a doctor at: Your employer must allow you to see a doctor and he is responsible for paying your medical bills. Please remember to obtain a medical certificate and a receipt for payment from the medical clinic to give to your employer. You should take a photo of the medical certificate and receipt for your own records. If your employer refuses to provide or pay for your medical treatment, report to MOM immediately by calling 6438 5122, or approach MOM Services Centre at 1500 Bendemeer Road, Singapore 339946. All information will be kept strictly confidential. MOM approved Medical Centres nearest to your place of work or stay MOM designated General Practitioner (GP) Clinics Telemedicine doctor (online consult only) via FWMOMCare app OR""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mw-handy-guide-english.pdf#page=7"",
+            ""text"": ""All information will be kept strictly confidential. MOM approved Medical Centres nearest to your place of work or stay MOM designated General Practitioner (GP) Clinics Telemedicine doctor (online consult only) via FWMOMCare app OR.""
+        }
+    ],
+    ""answer"": ""You can see a doctor at the MOM medical centre, via telemedicine, or at a GP clinic under the management of your Anchor Operator. You can find the MOM Medical Centre that you are enrolled with on your FWMOMCare App under “Find a Doctor”. You can also use telemedicine services via your FWMOMCare App.""
+}"
+How to make claims for my workplace injury treatment?,"For temporary incapacity cases - report the accident to your employer and seek compensation for medical leave wages and medical treatment related to the work accident. Temporary incapacity refers to an injured employee being temporarily unable to perform work and earn their usual wages after being placed on medical leave.
+For permanent incapacity cases, visit the following link for the steps to make your claim - https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/employees-how-to-claim#report-the-accident-to-employer","Thank you for your question. Based on the documents I reviewed, to make a claim for your workplace injury treatment, you should report your injury to your supervisor/employer and seek treatment quickly. If you receive any hospitalization leave/medical leave or light duty from the doctor/dentist, inform your supervisor/employer to submit an incident report to MOM. Keep records of your correspondence with your supervisor/employer on the work accident details. You should also keep a copy of documents relevant to your injuries (e.g., medical certificates, medical bills) and hand the originals to your employer. The insurer or MOM will calculate the compensation amount and issue a notice to you and your employer. If there is no objection to the amount, your employer/insurer must pay you within 21 days of the notice service date. I am 80% confident in my response. I referenced the information from [mw-handy-guide-english.pdf pages 8, 31; wic-guide-for-employers-english.pdf pages 17, 38]. Is there anything else I can help you with?","{
+    ""snippets"": [
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""Ask a friend to take photos of the place that you were injured, and the tools or machinery that caused your injury. Show the photos to the doctor. If you are scheduled for a medical appointment, please attend the appointment and do not instead go to other doctors. The treating doctor is in the best position to assess your injury and aid your recovery. Failure to attend scheduled medical appointments will result in the suspension of your work injury compensation claim. Keep a copy of the documents relevant to your injuries (e.g. medical certificates, medical bills) and hand the originals to your employer. The insurer or MOM will calculate the compensation amount and issue a notice to you and your employer. If there is no objection to the amount, your employer/insurer must pay you within 21 days of the notice service date. Your employer will handle your compensation claim and will notify MOM. MOM MC $ $ $ $$ $ BILL"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mw-handy-guide-english.pdf#page=8""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mw-handy-guide-english.pdf#page=8"",
+            ""text"": ""You only need to give MOM your contact details, the name of your employer and the date of the accident. MOM can assist you even if you are unable to speak English. 1 2 3 4 5 6 7 Keep records of your correspondence (eg your WhatsApp and SMS messages, etc.) with your supervisor/employer on the work accident details.""
+        },
+        {
+            ""text"": ""31 INJURY FROM WORK Your employer is responsible for the safety, health and well-being of all his employees. What to do if you are injured at work? Report your injury to your supervisor/employer and seek treatment quickly. If you receive any hospitalisation leave/medical leave or light duty from the doctor/dentist, inform your supervisor/ employer to submit an incident report to MOM. If your employer does not submit an incident report when you are injured at work, please inform MOM. You can inform MOM by calling 64385122, or coming down to MOM Services Centre (1500 Bendemeer Road, Singapore 339946) to speak to an MOM officer. You only need to give MOM your contact details, the name of your employer and the date of the accident. MOM can assist you even if you are unable to speak English. 1 2 3 4 5 6 7 Keep records of your correspondence (e.g. your WhatsApp and SMS messages, etc.) with your supervisor/employer on the work accident details."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mw-handy-guide-english.pdf#page=8"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/wic-guide-for-employers-english.pdf#page=38"",
+            ""text"": ""Inform your insurer about the accident. Compensation Pay medical leave wages to the employee by his next pay day failing which, to pay within the next 14 days from receipt of the original medical certificates. Pay medical fees/expenses promptly so that medical treatments do not get delayed."",
+            ""title"": ""wic-guide-for-employers-english""
+        },
+        {
+            ""text"": ""45 FWMOMCare You can also use the FWMOMCare app to check details such as your swab results and swab test appointment. Visit https://mom.gov.sg/eservices/fwmomcare for a step-by-step user guide on how to use the app. This is not applicable for workers staying in HDB flats or private residential properties. You should also wear your Contact Tracing Token (i.e. BluePass or TraceTogether Token/ Mobile app) at all times for contact tracing purposes. AccessCode Your AccessCode in SGWorkPass mobile app will show whether you are allowed to leave your residences for work. You can only leave your residences for work if your AccessCode is green. Do not leave your residences or go to work if your AccessCode is red. IMPORTANT Action will be taken against workers who are found to have exited their residences with a Red AccessCode. Green AccessCode: Can leave residence for work Red AccessCode: Cannot leave residence for work Do not go to work if your AccessCode is red"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mw-handy-guide-english.pdf#page=10"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/pcpfaqs.pdf#page=7"",
+            ""text"": ""• The Anchor Operator may impose additional charges should the treatment be outside the scope of the PCP. • However, if the worker's work injury requires specialist care or hospitalisation or emergency care, the Anchor Operator will refer the worker to a public healthcare institution and these treatments may be covered under the work injury compensation insurance."",
+            ""title"": ""pcpfaqs""
+        },
+        {
+            ""text"": ""Employee injured while at work Provide treatment Notify MOM of the accident Pay medical leave wages and medical expenses Ensure employee submits the completed application form for him to claim compensation under WICA Send medical report form and pay medical report fees Ensure employee attends all medical appointments Enable post-injury adjustment with suitable return to work duties Wait for compensation to be calculated Receive Notice of Assessment Pay compensation within 21 days of the Notice if no objection Application form for Work Injury Compensation Claim Under the Work Injury Compensation Act 2 1 5 4 6 7 3 9 8 10 11 NOTICE OF ASSESSMENT 14 The Work Injury Compensation Claim Process"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/wic-guide-for-employers-english.pdf#page=17"",
+            ""title"": ""wic-guide-for-employers-english""
+        },
+        {
+            ""text"": ""Useful Forms: FWMOMcare app self help form https://form.gov.sg/5ebe02edb561af00110e333a Work Injury Compensation (WIC) matters https://form.gov.sg/657186212d367900123b3014 Management of Work Injury Compensation (WIC) Claims https://www.mom.gov.sg/eservices/services/work-injury-compensation Resource and Tools for work injury compensation https://www.mom.gov.sg/workplace-safety-and-health/work-injury compensation/resources-and-tools."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/useful_resources_forms.pdf#page=1"",
+            ""title"": ""Microsoft Word - Document5""
+        },
+        {
+            ""title"": ""wic-guide-for-employers-english"",
+            ""text"": ""MY EMPLOYEE INJURED HIMSELF OR DIED DUE TO WORK. WHAT SHOULD I DO NOW? STEPS TO CLAIM COMPENSATION FOR PERMANENT INCAPACITY AND DEATH Permanent Incapacity Death STEP 1: Notify Accident Submit report to MOM via http://www.mom.gov.sg/iReport Inform your insurer of the accident. • While waiting for your insurer to settle payment, you must still pay medical leave wages to your employee by his next pay day. Get reimbursement from your insurer later. Do not influence doctors to prescribe less than the necessary length of medical leave. Injured employee should be given adequate medical leave to recover. 20 The Work Injury Compensation Claim Process"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/wic-guide-for-employers-english.pdf#page=23""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/sgsecure-retail-fnb-checklist-store-mgrs.pdf#page=1"",
+            ""text"": ""Execute roles and responsibilities spelt out in the company's Incident Response Plan, which may call for people to do the following: Undergo training to know how to identify cyber incidents (eg tell-tale signs) Identify the type and severity of the incident Inform the company management on the cyber incident to choose the best course of action from the predetermined plan."",
+            ""title"": ""sgsecure-retail-fnb-checklist-store-mgrs""
+        },
+        {
+            ""text"": ""Maintain Work Injury Compensation (WIC) insurance for both your local and foreign employees. Ensure that the policy reflects the employees to be covered. Check for work-related exclusion clauses and recovery clauses. If in doubt, approach your insurers to clarify on any of the terms in the insurance policy. Report accident Submit an incident report to MOM within 10 days of the incident or from the 4th day of medical leave whichever applies. Inform your insurer about the accident. Compensation Pay medical leave wages to the employee by his next pay day failing which, to pay within the next 14 days from receipt of the original medical certificates. Pay medical fees/expenses promptly so that medical treatments do not get delayed. Communication Explain to your employee his rights and entitlements under WICA. If information is not provided timely, they may go to a lawyer. Show concern and support for your employee while he is recovering from his injury. Injury Management Ensure your employee attends all medical appointments."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/wic-guide-for-employers-english.pdf#page=38"",
+            ""title"": ""wic-guide-for-employers-english""
+        },
+        {
+            ""title"": ""sgsecure-hotel-guide"",
+            ""text"": ""These impacts may be prevented or minimised by enhancing workplace security 2.3 Protecting Your Workplace Delay Put physical and system barriers to slow the progress of an attack on your hotel, allowing security and IT teams to respond and mitigate harm."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/sgsecure-hotel-guide.pdf#page=10""
+        },
+        {
+            ""text"": ""7 Operator may perform these added services either on-site or at their other facilities if they have such services. • However, these services are not covered by the PCP, and the Anchor Operator will charge employers accordingly. • Employers may also choose to arrange these services for their workers through their own private arrangements with other healthcare providers. 1.10. Are workplace injuries covered under the PCP? Would the co-payment of $5"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/pcpfaqs.pdf#page=7"",
+            ""title"": ""pcpfaqs""
+        },
+        {
+            ""text"": ""Have you done these? Train a group of employees in Psychological First Aid skills so they can help co-workers cope with difficult situations. Visit www.redcross.sg. Prepare your workforce 11."",
+            ""title"": ""sgsecure-guide-for-workplaces"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/sgsecure-guide-for-workplaces.pdf#page=3""
+        },
+        {
+            ""text"": ""Useful Forms: FWMOMcare app self help form https://form.gov.sg/5ebe02edb561af00110e333a Work Injury Compensation (WIC) matters https://form.gov.sg/657186212d367900123b3014 Management of Work Injury Compensation (WIC) Claims https://www.mom.gov.sg/eservices/services/work-injury-compensation Resource and Tools for work injury compensation https://www.mom.gov.sg/workplace-safety-and-health/work-injury compensation/resources-and-tools"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/useful_resources_forms.pdf#page=1"",
+            ""title"": ""Microsoft Word - Document5""
+        },
+        {
+            ""text"": ""2 Services Components [1] Mental health assessment includes primary care level assessment and management (including counselling and patient education) of patient who presents with symptoms of mental health conditions Annual basic health screening • Physical examination, including mental health assessment • Blood pressure, body mass index, height, weight • Screening tests for chronic conditions such as diabetes, high blood cholesterol (as recommended by doctor) • Preventive health and health risk factors counselling (eg dietary advice) [1] The scope of clinical services covered under PCP may be updated from time to time. PRIMARY HEALTHCARE SERVICES NOT COVERED UNDER THE PRIMARY CARE PLAN S/N Examinations and Services Not Covered Under PCP[2] 1 Treatment which is medically not warranted, such as aesthetics treatment (eg acne, scars) 2 Experimental and unproven treatment 3 Orthopaedic aids and appliances such as splints, hot packs, guards and braces 4 Expenses incurred in relation to any "",
+            ""title"": ""pcp-services"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/pcp-services.pdf#page=2""
+        },
+        {
+            ""text"": ""Supporting Employees and Colleagues Rally employees and colleagues together Set up support groups for affected individuals Perform Psychological First Aid for traumatised individuals Discerning Between Information Sources Assist in executing pre-established crisis communication plans Check and verify information about the attack from official sources Do not share videos or photos which may fuel rumours Address potential cases of discrimination or shunning Pooling Resources Together Assist in executing business continuity plans Discuss learning points from incidents with employees and colleagues RECOVERY Cyber Attacks Responding to Cyber Incidents A cyber incident is an event that indicates harm or the attempt to do harm to a company’s system. Execute roles and responsibilities spelt out in the company’s Incident Response Plan, which may call for people to do the following: Undergo training to know how to identify cyber incidents (e.g. tell-tale signs) Identify the type and severity of the incident Inform the company management on the cyber incident to choose the best course of action from the predetermined plan"",
+            ""title"": ""sgsecure-retail-fnb-checklist-store-mgrs"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/sgsecure-retail-fnb-checklist-store-mgrs.pdf#page=1""
+        },
+        {
+            ""title"": ""user-guide-dormwatch"",
+            ""text"": ""Please also note that if your worker is shifted to an isolation room/sickbay, they have to be registered in and out of the isolation room/sickbay so that their movements will tally with MOM records when they scan the Safe@Home QR code generated for isolation room/sickbay. 22 February 2022 18 FAQ (2)"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/user-guide-dormwatch.pdf#page=18""
+        },
+        {
+            ""title"": ""sgsecure-hotel-guide"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/sgsecure-hotel-guide.pdf#page=10"",
+            ""text"": ""22 A terror attack at a poorly protected workplace could result in injuries and loss of lives of employees. A cyber attack could result in sabotaged IT systems, disrupted supply networks and business operations. Hotels can also incur costs from and dropping employee morale. These impacts may be prevented or minimised by enhancing workplace security 2.3 Protecting Your Workplace Delay Put physical and system barriers to slow the progress of an attack on your hotel, allowing security and IT teams to respond and mitigate harm. Deter Implement measures that make potential attackers see your Detect Find and address signs of terrorism or cyber crime as early as possible, lowering the harm or threat they pose. Deny Safeguard employees and guests by ensuring that only authorised persons can access important information or areas.""
+        },
+        {
+            ""title"": ""0913-annex-a-dormwatch-factsheet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/0913-annex-a-dormwatch-factsheet.pdf#page=1"",
+            ""text"": ""Where to Download The app can be downloaded for free from the App Store or Google Play from 12 September 2018 onwards. How it works Key Functions Description Report  Enter the location of the dormitory  Provide a short description of the issue.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/fwmomcare-user-guide.pdf#page=36"",
+            ""title"": ""fwmomcare-user-guide"",
+            ""text"": ""FWMOMCare App – My QR STEP 2: Once My QR is selected you will see a QR Code. Step 3: You can switch to a barcode code format by clicking “Switch to barcode” STEP 1: My QR can be found on your Home Page.""
+        },
+        {
+            ""text"": ""Fee-for-Service Charges Per consultation Acute Simple Chronic Complex Chronic Consultation (including weekends and public holidays) S$9 – S$20 Standard medications / treatment (including simple procedures, point of-care testing and routine panel for chronic diseases) S$8 - S$18 S$33 - S$40 S$43 - S$55 Others All other tests / investigations / procedures As charged Pre-employment medical examination S$45 - S$66."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/fee-for-service-charges.pdf#page=1"",
+            ""title"": ""fee-for-service-charges""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Health and Safety/mom-designated-gp-clinics-not-managed-by-anchor-operator.pdf#page=1"",
+            ""title"": ""mom-designated-gp-clinics-not-managed-by-anchor-operator"",
+            ""text"": ""For migrant workers who are not mandated to purchase a PCP, they are encouraged to visit these autonomous MOM-Designated GP clinics listed here that follow MOM's recommended fees schedule.""
+        }
+    ]
+}"
+How do I renew my work permit?,"To renew your work permit kindly notify your employer 7-12 weeks before the expiry of your work permit. You may visit the link below for more information on renewing your work permit
+https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/renew-a-work-permit","""To renew your work permit in Singapore, you can check its validity using the SGWorkPass app or the MOM website. The app allows you to scan the QR code on your permit card for instant verification. If your card lacks a QR code, use the Card Serial Number. I am 80% confident in my response. I referenced the information from [mw-handy-guide-english.pdf, page 1].","{
+    ""snippets"": [
+        {
+            ""text"": ""20 As a work permit holder, you must comply with the conditions of your work permit. It is an offence to breach any work permit condition, with the following consequences: EMPLOYMENT LAWS Download the SGWorkPass app to scan the QR code on your work permit card to verify its validity instantly. If your work permit card does not have a QR code, you can use the unique Card Serial Number printed on the front of your card. Should your employer cancel your work permit before it expires, you will not be allowed to continue working in Singapore. You can check the validity of your work permit by downloading the SGWorkPass app or by logging on to the MOM website. a) SGWorkPass A free mobile app to check if your work pass is valid. (1) Checking Validity of Work Permit You will be fined or jailed. Your work permit will be cancelled. You will not be allowed to work in Singapore in the future."",
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Work Permit/mw-handy-guide-english.pdf#page=1""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Work Permit/mw-handy-guide-english.pdf#page=1"",
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""You can check the validity of your work permit by downloading the SGWorkPass app or by logging on to the MOM website. a) SGWorkPass A free mobile app to check if your work pass is valid.""
+        }
+    ],
+    ""answer"": ""You can check the validity of your work permit by downloading the SGWorkPass app or by logging on to the MOM website. You can also use the SGWorkPass app to scan the QR code on your work permit card to verify its validity instantly. If your work permit card does not have a QR code, you can use the unique Card Serial Number printed on the front of your card.""
+}"
+Will I be covered by insurance by my employer?,You will be entitled to medical insurance that is bought by your employer. For more information you may visit the link below - https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/medical-insurance,"I am not able to answer this question as I do not have access to your employment contract or insurance policy details. To find out about your insurance coverage, please refer to your employment contract or contact your employer's human resources department.",NIL
+Where are some places I can access support and help?,"You can contact the Migrant Workers’ Centre (MWC) at 6536 2692 if you have concerns about employment. You can contact Samaritans of Singapore (SOS) at 1800 2214 444 if you need help for personal issues, counselling for depression or personal issues. You can contact HealthServe at 3138 4443 if you require medical care, counselling or social assistance.  https://www.mom.gov.sg/-/media/mom/documents/publications/mw-guides/mw-handy-guide-english.pdf ","|-
+    Here are some places you can access support and help:
+
+    - Care Corner Toll-Free Mandarin Counselling Hotline: 1800 353 5800
+    - Institute of Mental Health Helpline: 6389 2222
+    - Singapore Association for Mental Health: 1800 377 2252
+    - Samaritans of Singapore: 1800 221 4444
+    - Counselling and Care Centre: 6536 6366
+    - TOUCHline (Counselling): 1 767
+    - Care Corner Counselling Centre: 6353 1180
+    - Ministry of Social and Family Development, Social Service Office, ComCare hotline: 1800 222 0000
+    - Silver Ribbon (Counselling): 6386 1928
+    I am 95% confident in my response. I referenced the information from [A5 Anti-Scam Resource Guide Pamphlet, pages 5; sgsecure-hotel-guide, pages 6, 8].","{
+    ""snippets"": [
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=5"",
+            ""text"": ""WHERE CAN I SEEK SUPPORT? If you require emotional support during the investigation and/or court process, inform your IO who will arrange for you to speak to a Victim Care Officer (VCO). VCOs are volunteers who are trained in providing emotional and practical support to victims of crime as they undergo the criminal justice process. Support from Victim Care Officer Should you require further support in the community, here are some possible avenues you may consider: Community Support Care Corner Toll-Free Mandarin Counselling Hotline Institute of Mental Health Helpline (24-hour hotline) Singapore Association for Mental Health Samaritans of Singapore (24-hour hotline) Mental well-being Counselling Counselling and Care Centre TOUCHline (Counselling) 1 767 6389 2222 1800 283 7019 1800 353 5800 1800 377 2252 6536 6366 Care Corner Counselling Centre 6353 1180 Financial Assistance Ministry of Social and Family Development, Social Service Office, ComCare hotline For individuals who have difficulties meeting basic needs and require financial assistance 1800 222 0000 Silver Ribbon (Counselling) 6386 1928""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=5"",
+            ""text"": ""Support from Victim Care Officer Should you require further support in the community, here are some possible avenues you may consider: Community Support Care Corner Toll-Free Mandarin Counselling Hotline Institute of Mental Health Helpline (24-hour hotline) Singapore Association for Mental Health Samaritans of Singapore (24-hour hotline) Mental well-being Counselling Counselling and Care Centre TOUCHline (Counselling) 1 767 6389 2222 1800 283 7019 1800 353 5800 1800 377 2252 6536 6366 Care Corner Counselling Centre 6353 1180 Financial Assistance Ministry of Social and Family Development, Social Service Office, ComCare hotline For individuals who have difficulties meeting basic needs and require financial assistance 1800 222 0000 Silver Ribbon (Counselling) 6386 1928."",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=8"",
+            ""title"": ""sgsecure-hotel-guide"",
+            ""text"": ""72 Provide Psychological First Aid and Support HealthHub Helplines and Psychological Aid: others/20/call-on-these-when-you-need-help Institute of Mental Health (IMH) 24 Hour Hotline for Mental Health Crises: 6389 2222 Samaritans of Singapore (SOS) 24 Hour Hotline for Suicide Prevention: 1800 221 4444 Singapore Counselling Centre Corporate Grief Counselling: www.scc.sg/e/corporate-grief-counselling Employee Assistance Programme: www.scc.sg/e/employee-assistance-programme Tel: 6339 5411 Counselling and Care Centre Website: www.counsel.org.sg Tel: 6536 6366 Email: info@counsel.org.sg Care Corner (Mandarin) Singapore Website: www.carecorner.org.sg Tel: 1800 3535 800 SINDA Website: www.sinda.org.sg Tel: 1800 295 3333 Contact for Employee Support National Trades Union Congress (NTUC) Industrial Relations Department: www.ntuc.org.sg Tel: 6213 8008 Email: ntucird@ntuc.org.sg Post-Crisis Support""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=8"",
+            ""text"": ""72 Provide Psychological First Aid and Support HealthHub Helplines and Psychological Aid: others/20/call-on-these-when-you-need-help Institute of Mental Health (IMH) 24 Hour Hotline for Mental Health Crises: 6389 2222 Samaritans of Singapore (SOS) 24 Hour Hotline for Suicide Prevention: 1800 221 4444 Singapore Counselling Centre Corporate Grief Counselling: www.scc.sg/e/corporate-grief-counselling Employee Assistance Programme: www.scc.sg/e/employee-assistance-programme Tel: 6339 5411 Counselling and Care Centre Website: www.counsel.org.sg Tel: 6536 6366 Email: info@counsel.org.sg Care Corner (Mandarin) Singapore Website: www.carecorner.org.sg Tel: 1800 3535 800 SINDA Website: www.sinda.org.sg Tel: 1800 295 3333 Contact for Employee Support National Trades Union Congress (NTUC) Industrial Relations Department: www.ntuc.org.sg Tel: 6213 8008 Email: ntucird@ntuc.org.sg Post-Crisis Support."",
+            ""title"": ""sgsecure-hotel-guide""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=1"",
+            ""title"": ""sgsecure-hotel-guide"",
+            ""text"": ""12 As part of the SGSecure@Workplaces programme, hotels can appoint and register SGSecure reps, utilise digital resources on the MOM website, and download the SGSecure Mobile App to stay updated on terrorism-related news, advisories and Appoint and register an SGSecure rep The SGSecure rep should champion SGSecure in peacetime, and be the point of contact between your hotel and authorities during crises. You may register an Encourage employees to access and utilise MOM SGSecure@Workplaces educational resources Access M templates, case studies and guides from the MOM SGSecure@Workplaces website. Share these self-help tools with employees and colleagues to prepare the workforce, protect the workplace and partner the community. Encourage employees to download the SGSecure Mobile App The app will allow you to receive important alerts in the event of a major emergency, make 999 calls or alert the Police via SMS. 2.1 Simple Steps That All Hotels Can Take Scan QR code to register your SGSecure rep Scan QR code to access SGSecure@Workplaces digital resources""
+        },
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=2"",
+            ""text"": ""Contact your bank immediately if your account or credit card has been compromised to prevent further losses. Notify all contacts and service providers if your online account is compromised. If you can still access your online account, change your password and enable two or multi-factor authentication. Stay alert for repeated scam attempts, including those impersonating the Police or other government authorities. Being a victim of scam can be distressing. Seek support from family and friends. WHAT SHOULD I DO IF I FALL PREY TO SCAMS? File a police report online or in person; call '999' if you require Police’s urgent assistance. Share scam-related information with the Police at 1800 255 0000. Report your scam encounters on social media or communications platforms to platform administrators.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-guide-for-workplaces.pdf#page=1"",
+            ""title"": ""sgsecure-guide-for-workplaces"",
+            ""text"": ""organisation what they offer Resource & Contacts Ministry of Home Affairs • Find out more about the SGSecure movement • Access e-learning modules, posters, videos and publications Website: www.sgsecure.sg Ministry of Manpower • Register your SGSecure Rep • Read more about implementing SGSecure at your workplace Website: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_ workplaces@mom.gov.sg National Trades Union Congress • Find out how unions can work together with you to prepare your employees for a crisis • Find out how your union leaders can play a part in SGSecure Website: www.ntuc.org.sg Tel: 6213 8351 Email: ntucird@ntuc.org.sg Singapore National Employers Federation • Find out how you can prepare your workforce through events organised by SNEF Website: www.snef.org.org Tel: 6290 7696 Email: advisory@snef.org.sg USEFUL CONTACTS You can make use of the resources below to help you implement SGSecure in your organisation.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-guide-for-workplaces.pdf#page=1"",
+            ""text"": ""organisation what they offer Resource & Contacts Ministry of Home Affairs • Find out more about the SGSecure movement • Access e-learning modules, posters, videos and publications Website: www.sgsecure.sg Ministry of Manpower • Register your SGSecure Rep • Read more about implementing SGSecure at your workplace Website: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_ workplaces@mom.gov.sg National Trades Union Congress • Find out how unions can work together with you to prepare your employees for a crisis • Find out how your union leaders can play a part in SGSecure Website: www.ntuc.org.sg Tel: 6213 8351 Email: ntucird@ntuc.org.sg Singapore National Employers Federation • Find out how you can prepare your workforce through events organised by SNEF Website: www.snef.org.org Tel: 6290 7696 Email: advisory@snef.org.sg USEFUL CONTACTS You can make use of the resources below to help you implement SGSecure in your organisation. These include training courses, business continuity planning initiatives, and other SGSecure materials that you can download and disseminate. 28"",
+            ""title"": ""sgsecure-guide-for-workplaces""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-guide-for-workplaces.pdf#page=2"",
+            ""text"": ""organisation what they offer Resource & Contacts Singapore Police Force • Register as a SSWG member (for building owners) • Access e-learning modules on SGSecure Emergency Hotline: 999 Emergency SMS: 71999 Website: www.police.gov.sg/sgsecure Non-emergency Hotline: 1800 - 255 - 0000 Enquiries (Police HQ): 1800 - 358 - 0000 SSWG Email: spf_sswg@spf.gov.sg Singapore Civil Defence Force • Sign up for Community Emergency Preparedness Programme training in fire-fighting, CPR/AED and First Aid Emergency Hotline: 995 Website: www.scdf.gov.sg Customer Service Centre Tel: 1800 - 286 - 5555 Email: scdf_csc@scdf.gov.sg Cyber Security Agency of Singapore • Find out more about cybersecurity threats and access complimentary cyber security training tools Website: www.csa.gov.sg/gosafeonline SkillsFuture Singapore • Use your SkillsFuture credits to learn useful courses that help you raise workplace preparedness Website: www.skillsfuture.sg Singapore Business Federation • Sign up to get Business Con"",
+            ""title"": ""sgsecure-guide-for-workplaces""
+        },
+        {
+            ""title"": ""sgsecure-hotel-guide"",
+            ""text"": ""70 Enhance the General Safety of Your Hotel For general information on SGSecure and to access e-learning materials, visit: www.sgsecure.sg Ministry of Manpower To register SGSecure reps, and learn how to implement SGSecure at your hotel workplace, visit: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_workplaces@mom.gov.sg Singapore Police Force Find out about the Safety and Security Watch Group, Corporate First Responder Scheme, and get useful resources on contingency planning and response To register as a member of Safety and Security Watch Group (SSWG), Email: spf_sswg@spf.gov.sg Scan QR code for more information 5.3 Useful Contacts This section of the guide contains contact details of authorities and agencies which you may access or reach out to, to better prepare your employees pre-crisis and support your employees post-crisis. Pre-Crisis Support"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=6""
+        },
+        {
+            ""text"": ""70 Enhance the General Safety of Your Hotel For general information on SGSecure and to access e-learning materials, visit: www.sgsecure.sg Ministry of Manpower To register SGSecure reps, and learn how to implement SGSecure at your hotel workplace, visit: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_workplaces@mom.gov.sg Singapore Police Force Find out about the Safety and Security Watch Group, Corporate First Responder Scheme, and get useful resources on contingency planning and response To register as a member of Safety and Security Watch Group (SSWG), Email: spf_sswg@spf.gov.sg Scan QR code for more information 5.3 Useful Contacts This section of the guide contains contact details of authorities and agencies which you may access or reach out to, to better prepare your employees pre-crisis and support your employees post-crisis."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=6"",
+            ""title"": ""sgsecure-hotel-guide""
+        },
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""text"": ""How long does the Police take to return my money if it is recovered?"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4""
+        }
+    ]
+}"
+Where do I go if I need access to legal services? ,"If you require legal assistance or services, you can contact the Legal Clinic by Migrant Workers’ Centre (MWC) at 6536 2692. If you need further assistance after contacting them, they will arrange a session to meet with you to address your concerns. https://www.mwc.org.sg/how-we-help/legal-clinic ","You can find legal services through the Legal Service Commission, or contact the Ministry of Manpower (MOM) at 6438 5122 or visit their office at 1500 Bendemeer Road, Singapore 339946. I am 80% confident in my response. I referenced the information from the mw-handy-guide-english document.","{
+    ""snippets"": [
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=11"",
+            ""text"": ""We have received reports that some people mislead workers into withdrawing their WICA claims, to earn commission from lawyers. As such, please consider your options carefully. If you need assistance in your work injury compensation claim, you can call 6438 5122, or approach MOM at 1500 Bendemeer Road, Singapore 339946.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=6"",
+            ""text"": ""22 If you are asked to work in a different job or for a different employer, you should report to MOM immediately by calling 6438 5122, or approach MOM Services Centre at 1500 Bendemeer Road, Singapore 339946. (3) Conduct • You need the approval of the Controller of Work Passes to marry a Singapore citizen or permanent resident (either in Singapore or outside of Singapore). This also applies after a work permit becomes invalid. • You must not become pregnant or give birth in Singapore unless you are married to a Singapore citizen or permanent resident and you have the approval of the Controller of Work Passes. This also applies after a work permit becomes invalid. 4) Do not be an Unlicensed Employment Agent • It is illegal to conduct any form of employment agency activities without a license from MOM, such as:"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=11"",
+            ""text"": ""33 Do not make false claims Do not make a false claim or give false information that you were injured at work so as to obtain work injury compensation. Workers who do so will be fined and/or jailed, and will not be able to return to Singapore to work. WICA vs Common Law Most workers who are injured receive fair and timely compensation under WICA. You have the right to withdraw your WICA claim with MOM, and instead engage a lawyer to make a common law claim. However, please keep in mind that common law claims often take longer to resolve, and you will need to prove in court that the injury was caused by your employer’s negligence. We have received reports that some people mislead workers into withdrawing their WICA claims, to earn commission from lawyers. As such, please consider your options carefully. If you need assistance in your work injury compensation claim, you can call 6438 5122, or approach MOM at 1500 Bendemeer Road, Singapore 339946.""
+        },
+        {
+            ""text"": ""matter affecting the pecuniary interests of Government, or to make, authenticate or keep any document relating to the pecuniary interests of Government, or to prevent the infraction of any law for the protection of the pecuniary interests of Government, and every officer in the service or pay of Government, or remunerated by fees or commission for the performance of any public duty; (i) a member of the Public Service Commission, the Judicial Service Commission or the Legal Service Commission; [Act 33 of 2021 wef 14/01/2022]"",
+            ""title"": ""4cb4a948-df95-4fd4-8506-17d79a49ccba 1..313"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/Penal Code 1871.pdf#page=32""
+        }
+    ]
+}"
+What should I do if my employer deducted my salary?,"Your employer can only deduct due to the following reasons:
+You were absent from work without consent
+Employer has paid for meals that you requested for
+Employer has paid for housing/accommodation, amenities and services that you accepted
+Goods or money entrusted to you was lost or damaged
+Written consent was given
+If none of the reasons fit or have happened, you may report to MOM or the Tripartite Alliance for Dispute Management (TADM). TADM is located at MOM Services Centre. ","You can find legal services through the Legal Service Commission, or contact the Ministry of Manpower (MOM) at 6438 5122 or visit their office at 1500 Bendemeer Road, Singapore 339946. I am 80% confident in my response. I referenced the information from the mw-handy-guide-english document.","{
+    ""snippets"": [
+        {
+            ""text"": ""We have received reports that some people mislead workers into withdrawing their WICA claims, to earn commission from lawyers. As such, please consider your options carefully. If you need assistance in your work injury compensation claim, you can call 6438 5122, or approach MOM at 1500 Bendemeer Road, Singapore 339946."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=11"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""22 If you are asked to work in a different job or for a different employer, you should report to MOM immediately by calling 6438 5122, or approach MOM Services Centre at 1500 Bendemeer Road, Singapore 339946. (3) Conduct • You need the approval of the Controller of Work Passes to marry a Singapore citizen or permanent resident (either in Singapore or outside of Singapore). This also applies after a work permit becomes invalid. • You must not become pregnant or give birth in Singapore unless you are married to a Singapore citizen or permanent resident and you have the approval of the Controller of Work Passes. This also applies after a work permit becomes invalid. 4) Do not be an Unlicensed Employment Agent • It is illegal to conduct any form of employment agency activities without a license from MOM, such as:"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=6""
+        },
+        {
+            ""text"": ""33 Do not make false claims Do not make a false claim or give false information that you were injured at work so as to obtain work injury compensation. Workers who do so will be fined and/or jailed, and will not be able to return to Singapore to work. WICA vs Common Law Most workers who are injured receive fair and timely compensation under WICA. You have the right to withdraw your WICA claim with MOM, and instead engage a lawyer to make a common law claim. However, please keep in mind that common law claims often take longer to resolve, and you will need to prove in court that the injury was caused by your employer’s negligence. We have received reports that some people mislead workers into withdrawing their WICA claims, to earn commission from lawyers. As such, please consider your options carefully. If you need assistance in your work injury compensation claim, you can call 6438 5122, or approach MOM at 1500 Bendemeer Road, Singapore 339946."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=11"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/Penal Code 1871.pdf#page=32"",
+            ""title"": ""4cb4a948-df95-4fd4-8506-17d79a49ccba 1..313"",
+            ""text"": ""matter affecting the pecuniary interests of Government, or to make, authenticate or keep any document relating to the pecuniary interests of Government, or to prevent the infraction of any law for the protection of the pecuniary interests of Government, and every officer in the service or pay of Government, or remunerated by fees or commission for the performance of any public duty; (i) a member of the Public Service Commission, the Judicial Service Commission or the Legal Service Commission; [Act 33 of 2021 wef 14/01/2022]""
+        }
+    ],
+    ""answer"": ""You can find legal services in Singapore through the Legal Service Commission. You can also contact the Ministry of Manpower (MOM) at 6438 5122 or visit their office at 1500 Bendemeer Road, Singapore 339946.""
+}"
+Can I do other jobs if requested by my employer?,You must only work in the occupation and for the employers specified on your work permit card. You are not allowed to work in another occupation even if you are instructed by your employer.,"In general, your employer in Singapore must give you a set of Key Employment Terms (KETs) in writing. These terms outline your agreed employment conditions, including your working arrangements. However, the specifics of whether they can request you to perform duties outside your job description depend on your contract and the nature of the work. If you have concerns, reporting to the Ministry of Manpower (MOM) or the Tripartite Alliance for Dispute Management (TADM) is recommended. I am 80% confident in my response. I referenced the information from the Ministry of Manpower website.",NIL
+"My employer paid me lesser than expected, when I asked him, he said it was used to pay for my meals. What should I do?",you can report to MOM or the Tripartite Alliance for Dispute Management (TADM). TADM is located at MOM Services Centre. Your employer should not be allowed to deduct your salary as per stated in the IPA letter without your consent,"""I understand your situation. Your employer can only deduct from your salary if they paid for meals you specifically requested, and you gave written consent. They cannot deduct more than 50% of your total salary in any single pay period. If you did not request these meals or give written consent, this deduction is likely unlawful. I recommend reviewing your employment contract and any relevant legislation in your area regarding wage deductions. If the issue persists, you may wish to consult with an employment lawyer or your country's labor department for further advice.""","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Salary and Wages/mw-handy-guide-english.pdf#page=3"",
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""14 (b) Salary Deductions • Your employer cannot make deductions from your salary. They can only do so if: You were absent from work without your employer’s consent. Your employer has paid for meals that you requested for. Goods or money entrusted to you was lost or damaged (one-off deduction only). Your employer has paid for housing/accommodation, amenities and services that you accepted. You gave written consent to the deduction (you can withdraw your consent any time before the deduction is made). • If a salary deduction is made, your employer cannot deduct more than 50% of your total salary in any single salary period. This does not include deductions made for: - Your absence from work. - Recovering advances, loans or over-payment of your salary. - Paying any co-operative society for which you had given your written consent.""
+        }
+    ]
+}"
+"What should I do if I have been involved in a scam?
+",You may visit this link for assistance if you believe you may have been involved in a scam: https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/publications-and-resources/staying-safe-from-scams,"If you've been involved in a scam, here's what you should do: Contact your bank immediately if your account or credit card has been compromised. File a police report online or in person. If you require urgent police assistance, call '999'. You can also share scam-related information with the Police at 1800 255 0000. Report your scam encounters on social media or communications platforms to platform administrators. Remember to avoid sharing personal or financial information with unknown sources and to stay safe! I am 80% confident in my response. I referenced the information from the Anti-Scam Resource Guide Pamphlet and the Money Management Guide for Migrant Domestic Workers.","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/resourceguidepamphleteng.pdf#page=2"",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""text"": ""Contact your bank immediately if your account or credit card has been compromised to prevent further losses. Notify all contacts and service providers if your online account is compromised. If you can still access your online account, change your password and enable two or multi-factor authentication. Stay alert for repeated scam attempts, including those impersonating the Police or other government authorities. Being a victim of scam can be distressing. Seek support from family and friends. WHAT SHOULD I DO IF I FALL PREY TO SCAMS? File a police report online or in person; call '999' if you require Police’s urgent assistance. Share scam-related information with the Police at 1800 255 0000. Report your scam encounters on social media or communications platforms to platform administrators.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/resourceguidepamphleteng.pdf#page=2"",
+            ""text"": ""WHAT SHOULD I DO IF I FALL PREY TO SCAMS? File a police report online or in person; call '999' if you require Police's urgent assistance. Share scam-related information with the Police at 1800 255 0000. Report your scam encounters on social media or communications platforms to platform administrators."",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/resourceguidepamphleteng.pdf#page=3"",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""text"": ""The contact number will be provided to you in an acknowledgement letter/email that was sent to you within seven working days after you reported your case. If urgent police attention is required, please call '999'. What happens when I make a police report?""
+        },
+        {
+            ""text"": ""The Ministry of Law will share more information on this at a later date. You are not required to pay for your FDW's loans. If you are threatened or harassed by licensed or unlicensed moneylenders, you should immediately contact the Police at 999, or the X-Ah Long hotline at 1800-924-5664."",
+            ""title"": ""MOM Infocus EDM issue 9_290119_V2"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/edm-20-3-things-to-tell-your-fdw-about-borrowing-singapore.pdf#page=1""
+        },
+        {
+            ""title"": ""mdw-money-management-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Financial/mdw-money-management-guide-english.pdf#page=20"",
+            ""text"": ""20 Beware of Online Loan Scams If you receive an SMS or a WhatsApp message offering a loan service and asking you to transfer a sum of money as a deposit before the loan can be paid out, it is likely a loan scam. Take steps to avoid becoming a victim of loan scams. Let us ACT against scams! MONEY MANAGEMENT GUIDE FOR MIGRANT DOMESTIC WORKERS Tell the authorities and other fellow domestic workers about scam encounters by reporting in the ScamShield app or by filing a police report. If you have questions, call the Anti-Scam hotline at 1800 722 6688. Check for potential scam signs by asking questions, fact-checking for personal information and money transfers and verifying the legitimacy of online listings and reviews. Ignore such loan advertisements. Do not reply to these messages. Do not give anyone your personal information such as your bank account or passport number. Block and report loan advertisements on WhatsApp. Add a security feature by downloading the ScamShield app on your mobile phone.""
+        }
+    ],
+    ""answer"": ""You should contact your bank immediately if your account or credit card has been compromised. File a police report online or in person. If you require urgent police assistance, call '999'. You can also share scam-related information with the Police at 1800 255 0000. Report your scam encounters on social media or communications platforms to platform administrators.""
+}"
+What are the penalties if I have borrowed money from unlicensed moneylenders?,"""If you have been found to have borrowed money from unlicensed moneylenders, your work permit could be revoked and therefore you will be unable to work in Singapore. The following links contain other relevant legal information regarding the penalties for borrowing money from unlicensed moneylenders: 
+https://www.mom.gov.sg/-/media/mom/documents/publications/infocus-monthly-edm/edm-11-police-advisory-on-unlicensed-moneylending-borrowers.pdf 
+
+https://www.mom.gov.sg/-/media/mom/documents/publications/infocus-monthly-edm/edm-20-3-things-to-tell-your-fdw-about-borrowing-singapore.pdf""","Based on my research, borrowing from unlicensed moneylenders in Singapore can lead to serious consequences. Your work permit may be revoked, preventing you from working in Singapore and resulting in your deportation. Additionally, you could face fines ranging from $30,000 to $300,000, imprisonment for up to 4 years, and even caning of up to 6 strokes. I referenced this information from several sources, including the Ministry of Manpower's publications and other legal documents. I am 95% confident in my response. Please remember that this information is for guidance only, and you should seek legal advice for your specific situation.","{
+    ""snippets"": [
+        {
+            ""text"": ""40 • Do not respond to the messages. If you respond in any way (give your name, number, address, bank account etc), the unlicensed moneylenders may say that you have taken a loan. • If they contact you again, please call the Police at ‘999’ or 1800 255 0000 or tell your employer. • Do not lend your work permit to your friends to borrow money. Penalties For assisting in the business of unlicensed moneylenders: • Fine between $30,000 and $300,000. • Imprisonment of up to 4 years. • Caning of up to 6 strokes. If you are found to have borrowed from unlicensed moneylenders, MOM will inform your employer and your work permit will be revoked. You will be sent back home and not be allowed to work in Singapore again. Licensed Moneylenders If you decide to borrow from a licensed moneylender, beware of the following:"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=17"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""Unlicensed Moneylenders Do not borrow from unlicensed moneylenders and do not act as runners or brokers for moneylenders. Do not help any moneylender to give loans to your friends in return for any benefit. If you do, your work permit will be revoked and you will not be allowed to work in Singapore again. Learn to Identify Unlicensed Moneylenders • They have no shopfront. • They send you a message via SMS/Facebook or call you to take loans from them. Ignore Unlicensed Moneylenders • Do not believe the offer of ‘free money’ or ‘interest-free loan’. Ignore these messages and delete any texts immediately."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=16""
+        },
+        {
+            ""title"": ""salary.csv"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=1"",
+            ""text"": ""question ground_truth What should I do if I have been involved in a scam? You may visit this link for assistance if you believe you may have been involved in a scam: https://www.mom.gov.sg/passes and-permits/work-permit-for-foreign domestic-worker/publications-and resources/staying-safe-from-scams What are the penalties if I have borrowed money from unlicensed moneylenders? If you have been found to have borrowed money from unlicensed moneylenders, your work permit could be revoked and therefore you will be unable to work in Singapore. The following links contain other relevant legal information regarding the penalties for borrowing money from unlicensed moneylenders: https://www.mom.gov.sg/- /media/mom/documents/publicatio ns/infocus-monthly-edm/edm-11- police-advisory-on-unlicensed moneylending-borrowers.pdf https://www.mom.gov.sg/- /media/mom/documents/publicatio ns/infocus-monthly-edm/edm-20-3- things-to-tell-your-fdw-about borrowing-singapore.pdf""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=1"",
+            ""title"": ""salary.csv"",
+            ""text"": ""If you have been found to have borrowed money from unlicensed moneylenders, your work permit could be revoked and therefore you will be unable to work in Singapore.""
+        },
+        {
+            ""title"": ""MOM Infocus EDM issue 9_290119_V2"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/edm-20-3-things-to-tell-your-fdw-about-borrowing-singapore.pdf#page=1"",
+            ""text"": ""FDWs who borrow from unlicensed moneylenders will be debarred from future employment in Singapore. 2) There is a cap on how much an FDW can borrow from licensed moneylenders. 3) An FDW can self-exclude herself from borrowing from licensed moneylenders. Licensed moneylenders have proper shopfronts and licences.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/edm-20-3-things-to-tell-your-fdw-about-borrowing-singapore.pdf#page=1"",
+            ""title"": ""MOM Infocus EDM issue 9_290119_V2"",
+            ""text"": ""January 2019 This newsletter is for employers of foreign domestic workers. 3 important things to tell your FDW about borrowing money in Singapore Your FDW MUST NOT respond to any loan offers via social media, phone calls or text messages, as these are from unlicensed moneylenders. FDWs who borrow from unlicensed moneylenders will be debarred from future employment in Singapore. 2) There is a cap on how much an FDW can borrow from licensed moneylenders. 3) An FDW can self-exclude herself from borrowing from licensed moneylenders. Licensed moneylenders have proper shopfronts and licences. The combined maximum amount that an FDW can borrow from all licensed moneylenders is dependent on how much she earns: If your FDW would like to apply for self-exclusion from borrowing, she can do so by submitting an online application. The Ministry of Law will share more information on this at a later date.""
+        },
+        {
+            ""text"": ""Whoever does anything which by any law in force in Singapore he is prohibited from doing, or omits to do anything which he is so enjoined to do, shall, when no special punishment is provided by the law for such commission or omission, be punished with fine not exceeding $2,000. Unlawful return from banishment 226. Whoever, having been lawfully banished, or otherwise lawfully sent out of Singapore, returns to Singapore, the term for which he was banished or sent out of Singapore not having expired, and he not having received a remission of punishment, or otherwise not having lawful authority to return to Singapore, shall be punished with imprisonment for a term which shall not exceed that for which he was banished or sent out of Singapore, and shall also be liable to fine. Explanation.— A person ordered to be banished from Singapore under the Banishment Act 1959 is liable to punishment for returning unlawfully to Singapore under this section."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/Penal Code 1871.pdf#page=133"",
+            ""title"": ""4cb4a948-df95-4fd4-8506-17d79a49ccba 1..313""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/mw-handy-guide-english.pdf#page=17"",
+            ""text"": ""• Do not lend your work permit to your friends to borrow money. Penalties For assisting in the business of unlicensed moneylenders: • Fine between $30000 and $300000. • Imprisonment of up to 4 years. • Caning of up to 6 strokes."",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/edm-11-police-advisory-on-unlicensed-moneylending-borrowers.pdf#page=1"",
+            ""text"": ""For acting on behalf of an UML to commit harassment: Imprisonment for a term of up to 5 years; Fine between $5000 and $50000; and Caning of between 3 and 6 strokes."",
+            ""title"": ""edm-11-police-advisory-on-unlicensed-moneylending-borrowers""
+        },
+        {
+            ""text"": ""For acting on behalf of an UML to commit harassment: Imprisonment for a term of up to 5 years; Fine between $5,000 and $50,000; and Caning of between 3 and 6 strokes. In September 2017, a 31-year old male Indian national was charged in Court for allegedly issuing loans to FDWs through word-of-mouth at the vicinity of Tanjong Katong. Preliminary investigations revealed that the suspect had issued loans to more than 30 FDWs and foreign workers with a 20% monthly interest."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/edm-11-police-advisory-on-unlicensed-moneylending-borrowers.pdf#page=1"",
+            ""title"": ""edm-11-police-advisory-on-unlicensed-moneylending-borrowers""
+        }
+    ],
+    ""answer"": ""If you are found to have borrowed money from unlicensed moneylenders, your work permit could be revoked and you will be unable to work in Singapore. You will be sent back home and not be allowed to work in Singapore again. You may also face the following penalties:\n- Fine between $30,000 and $300,000.\n- Imprisonment of up to 4 years.\n- Caning of up to 6 strokes.""
+}"
+What should I do if I receive a call or text message from an unfamiliar phone number who says they are from government agencies such as MOM or the police?,"Should you receive such a call, it is likely to be a phishing scam whereby someone pretends to be someone they are not in order to access sensitive information such as your bank account details. Do not click on links in unsolicited text messages and emails. If you need to access your bank account, use the official app or type in your bank's web address into your web browser to ensure that you are navigating to the official website. You may visit the following link for more information on how to protect yourself in these situations: https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/publications-and-resources/staying-safe-from-scams","""I understand your concern about receiving calls or text messages from unfamiliar numbers claiming to be from government agencies. To ensure your safety and security, I strongly advise against sharing any personal information with such callers. Instead, you should verify the authenticity of the contact by independently contacting the relevant government agency through their official channels (website or publicly listed phone number). If you suspect it's a scam, report it to the authorities immediately.""",NIL
+How can I keep updated with the latest rules and regulations in Singapore?,You may visit official websites such as www.gov.sg and www.mom.gov.sg for the latest updates to the rules and regulations in Singapore. Alternatively you may access the myMOM portal for regular updates as well.,"You can stay updated on the latest rules and regulations in Singapore by visiting websites like www.gov.sg and www.mom.gov.sg, or by using the myMOM portal. I am 95% confident in my response. I referenced the information from the salary.csv document.","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=2"",
+            ""text"": ""You may visit official websites such as www.gov.sg and www.mom.gov.sg for the latest updates to the rules and regulations in Singapore. Alternatively you may access the myMOM portal for regular updates as well. Where can I go for help if I have financial difficulties?"",
+            ""title"": ""salary.csv""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=2"",
+            ""text"": ""You may visit official websites such as www.gov.sg and www.mom.gov.sg for the latest updates to the rules and regulations in Singapore. Alternatively you may access the myMOM portal for regular updates as well. Where can I go for help if I have financial difficulties? You may visit the following channels if you are facing financial difficulties. Credit Counselling Singapore: 6225- 5227 (www.ccs.org.sg) National Council on Problem Gambling: 1800-6-668-668 (www.ncpg.org.sg) ComCare: 1800-222-0000 (www.msf.gov.sg/comcare) Where is the most fun place in China? I'm sorry we don't have information about other countries. You may ask questions related to Singapore, we will be happy to help! Which is the most properous city in China? I'm sorry we don't have information about other countries. You may ask questions related to Singapore, we will be happy to help!"",
+            ""title"": ""salary.csv""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=2"",
+            ""title"": ""salary.csv"",
+            ""text"": ""What should I do if I receive a call or text message from an unfamiliar phone number who says they are from government agencies such as MOM or the police? Should you receive such a call, it is likely to be a phishing scam whereby someone pretends to be someone they are not in order to access sensitive information such as your bank account details. Do not click on links in unsolicited text messages and emails. If you need to access your bank account, use the official app or type in your bank's web address into your web browser to ensure that you are navigating to the official website. You may visit the following link for more information on how to protect yourself in these situations: https://www.mom.gov.sg/passes and-permits/work-permit-for-foreign domestic-worker/publications-and resources/staying-safe-from-scams How can I keep updated with the latest rules and regulations in Singapore?""
+        }
+    ],
+    ""answer"": ""You can visit official websites such as www.gov.sg and www.mom.gov.sg for the latest updates to the rules and regulations in Singapore. You can also access the myMOM portal for regular updates.""
+}"
+Where can I go for help if I have financial difficulties?,"You may visit the following channels if you are facing financial difficulties. 
+Credit Counselling Singapore: 6225-5227 (www.ccs.org.sg) 
+National Council on Problem Gambling: 1800-6-668-668 (www.ncpg.org.sg) 
+ComCare: 1800-222-0000 (www.msf.gov.sg/comcare)","""Thank you for your question. Based on the information I have access to, for financial difficulties, you can contact the Ministry of Social and Family Development, Social Service Office, ComCare hotline at 1800 222 0000.  I am 80% confident in my response. I referenced the information from the A5 Anti-Scam Resource Guide Pamphlet (page 5).""","{
+    ""snippets"": [
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=5"",
+            ""text"": ""WHERE CAN I SEEK SUPPORT? If you require emotional support during the investigation and/or court process, inform your IO who will arrange for you to speak to a Victim Care Officer (VCO). VCOs are volunteers who are trained in providing emotional and practical support to victims of crime as they undergo the criminal justice process. Support from Victim Care Officer Should you require further support in the community, here are some possible avenues you may consider: Community Support Care Corner Toll-Free Mandarin Counselling Hotline Institute of Mental Health Helpline (24-hour hotline) Singapore Association for Mental Health Samaritans of Singapore (24-hour hotline) Mental well-being Counselling Counselling and Care Centre TOUCHline (Counselling) 1 767 6389 2222 1800 283 7019 1800 353 5800 1800 377 2252 6536 6366 Care Corner Counselling Centre 6353 1180 Financial Assistance Ministry of Social and Family Development, Social Service Office, ComCare hotline For individuals who have difficulties meeting basic needs and require financial assistance 1800 222 0000 Silver Ribbon (Counselling) 6386 1928""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=5"",
+            ""text"": ""Support from Victim Care Officer Should you require further support in the community, here are some possible avenues you may consider: Community Support Care Corner Toll-Free Mandarin Counselling Hotline Institute of Mental Health Helpline (24-hour hotline) Singapore Association for Mental Health Samaritans of Singapore (24-hour hotline) Mental well-being Counselling Counselling and Care Centre TOUCHline (Counselling) 1 767 6389 2222 1800 283 7019 1800 353 5800 1800 377 2252 6536 6366 Care Corner Counselling Centre 6353 1180 Financial Assistance Ministry of Social and Family Development, Social Service Office, ComCare hotline For individuals who have difficulties meeting basic needs and require financial assistance 1800 222 0000 Silver Ribbon (Counselling) 6386 1928."",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4"",
+            ""text"": ""Overseas accounts reside outside of Singapore’s jurisdiction and the Singapore Police Force will not be able to exercise any legal powers to freeze or seize the account or compel a foreign-based bank to reverse the transactions. In such cases, the Police can only notify our foreign counterparts of the incident and seek their assistance to investigate the matter. It also depends on the laws of the foreign country and the internal business policies of the foreign banks involved. The chances of recovery once the funds have been transferred out of Singapore is very low, and it is likely that the money may no longer be recoverable.""
+        },
+        {
+            ""text"": ""If you have salary issues, you can approach TADM for assistance. TADM is located at MOM Services Centre Level 3, 1500 Bendemeer Road, Singapore 339946."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/mw-handy-guide-english.pdf#page=2"",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""text"": ""The Police will only be able to return any seized monies to victims upon the conclusion of investigations. The amount of time it takes to complete investigations, and correspondingly, the amount of time it takes for seized monies to be returned to the victims, depends on many different factors and differs across the various types of scams. For example, whether there are multiple claimants and whether the monies are still relevant for the purposes of investigation or court trial or other court proceedings. I was a victim of an online scam and was cheated of my money. Will the Police be able to recover my money? A typical modus operandi by scam syndicates is to move scammed monies quickly between multiple bank accounts, including to overseas bank accounts. If the money is transferred overseas, fund recovery can be challenging as different jurisdictions have different recovery process and legislation. The chance of recovery once the funds have been transferred out of Singapore is very low, and it is likely that the money may no longer be recoverable."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4"",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""text"": ""72 Provide Psychological First Aid and Support HealthHub Helplines and Psychological Aid: others/20/call-on-these-when-you-need-help Institute of Mental Health (IMH) 24 Hour Hotline for Mental Health Crises: 6389 2222 Samaritans of Singapore (SOS) 24 Hour Hotline for Suicide Prevention: 1800 221 4444 Singapore Counselling Centre Corporate Grief Counselling: www.scc.sg/e/corporate-grief-counselling Employee Assistance Programme: www.scc.sg/e/employee-assistance-programme Tel: 6339 5411 Counselling and Care Centre Website: www.counsel.org.sg Tel: 6536 6366 Email: info@counsel.org.sg Care Corner (Mandarin) Singapore Website: www.carecorner.org.sg Tel: 1800 3535 800 SINDA Website: www.sinda.org.sg Tel: 1800 295 3333 Contact for Employee Support National Trades Union Congress (NTUC) Industrial Relations Department: www.ntuc.org.sg Tel: 6213 8008 Email: ntucird@ntuc.org.sg Post-Crisis Support."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=8"",
+            ""title"": ""sgsecure-hotel-guide""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""43 Embassy of the Republic of Philippines High Commission of the Democratic Socialist Republic of Sri Lanka Royal Thai Embassy 6737 3977 6254 6773 6224 1797 Approach MOM or TADM for Help If you face employment issues, you can contact MOM at 6438 5122 for assistance. If you have salary issues, you can approach TADM for assistance. TADM is located at MOM Services Centre Level 3, 1500 Bendemeer Road, Singapore 339946. If your employer attempts to send you home forcibly without settling any of your salary, claims, or cases, you should approach the officers at the airport immigration counters for assistance. MOM will help you. Do not hesitate to seek help when you are feeling stressed or pressured. If you are feeling down or having problems at home, speak to someone. If you do not know who to turn to, help is available when you call the telephone numbers above. Remember that there’s always someone available to resolve your problems."",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/mw-handy-guide-english.pdf#page=2""
+        },
+        {
+            ""text"": ""organisation what they offer Resource & Contacts Singapore Police Force • Register as a SSWG member (for building owners) • Access e-learning modules on SGSecure Emergency Hotline: 999 Emergency SMS: 71999 Website: www.police.gov.sg/sgsecure Non-emergency Hotline: 1800 - 255 - 0000 Enquiries (Police HQ): 1800 - 358 - 0000 SSWG Email: spf_sswg@spf.gov.sg Singapore Civil Defence Force • Sign up for Community Emergency Preparedness Programme training in fire-fighting, CPR/AED and First Aid Emergency Hotline: 995 Website: www.scdf.gov.sg Customer Service Centre Tel: 1800 - 286 - 5555 Email: scdf_csc@scdf.gov.sg Cyber Security Agency of Singapore • Find out more about cybersecurity threats and access complimentary cyber security training tools Website: www.csa.gov.sg/gosafeonline SkillsFuture Singapore • Use your SkillsFuture credits to learn useful courses that help you raise workplace preparedness Website: www.skillsfuture.sg Singapore Business Federation • Sign up to get Business Con"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-guide-for-workplaces.pdf#page=2"",
+            ""title"": ""sgsecure-guide-for-workplaces""
+        },
+        {
+            ""title"": ""mw-handy-guide-english"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/mw-handy-guide-english.pdf#page=1"",
+            ""text"": ""42 USEFUL TELEPHONE NUMBERS If you need help at any time, you can call the numbers below for assistance: Important Numbers Police Fire / Ambulance Service Ministry of Manpower Matters relating to employment, salary and well-being of migrant workers Workplace Safety and Health Council Matters relating to workplace saftey Non-Government Organisations MWC (Migrant Workers’ Centre) - Matters relating to employment or when you require assistance SOS (Samaritans of Singapore) - Help for personal issues, counselling for depression, etc. HealthServe - Help on medical care, counselling, social assistance. Embassies / High Commissions High Commission of the People’s Republic of Bangladesh Embassy of the People’s Republic of China High Commission of India Embassy of the Republic of Indonesia Malaysian High Commission Embassy of the Union of Myanmar High Commission of the Islamic Republic of Pakistan 999 995 6438 5122 6317 1111 6536 2692 (24-hour helpline) 1800 2214 444 (24-hour helpline) 3138 4443 (24-hour helpline) 6255 0075 6412 1900 6238 2537 6737 7422 6235 0111 6735 1672 6737 6988""
+        },
+        {
+            ""text"": ""How long does the Police take to return my money if it is recovered?"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4"",
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet""
+        },
+        {
+            ""text"": ""72 Provide Psychological First Aid and Support HealthHub Helplines and Psychological Aid: others/20/call-on-these-when-you-need-help Institute of Mental Health (IMH) 24 Hour Hotline for Mental Health Crises: 6389 2222 Samaritans of Singapore (SOS) 24 Hour Hotline for Suicide Prevention: 1800 221 4444 Singapore Counselling Centre Corporate Grief Counselling: www.scc.sg/e/corporate-grief-counselling Employee Assistance Programme: www.scc.sg/e/employee-assistance-programme Tel: 6339 5411 Counselling and Care Centre Website: www.counsel.org.sg Tel: 6536 6366 Email: info@counsel.org.sg Care Corner (Mandarin) Singapore Website: www.carecorner.org.sg Tel: 1800 3535 800 SINDA Website: www.sinda.org.sg Tel: 1800 295 3333 Contact for Employee Support National Trades Union Congress (NTUC) Industrial Relations Department: www.ntuc.org.sg Tel: 6213 8008 Email: ntucird@ntuc.org.sg Post-Crisis Support"",
+            ""title"": ""sgsecure-hotel-guide"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=8""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/mw-handy-guide-english.pdf#page=1"",
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""42 USEFUL TELEPHONE NUMBERS If you need help at any time, you can call the numbers below for assistance: Important Numbers Police Fire / Ambulance Service Ministry of Manpower Matters relating to employment, salary and well-being of migrant workers Workplace Safety and Health Council Matters relating to workplace saftey Non-Government Organisations MWC (Migrant Workers' Centre) - Matters relating to employment or when you require assistance SOS (Samaritans of Singapore) - Help for personal issues, counselling for depression, etc. HealthServe - Help on medical care, counselling, social assistance.""
+        },
+        {
+            ""text"": ""organisation what they offer Resource & Contacts Singapore Police Force • Register as a SSWG member (for building owners) • Access e-learning modules on SGSecure Emergency Hotline: 999 Emergency SMS: 71999 Website: www.police.gov.sg/sgsecure Non-emergency Hotline: 1800 - 255 - 0000 Enquiries (Police HQ): 1800 - 358 - 0000 SSWG Email: spf_sswg@spf.gov.sg Singapore Civil Defence Force • Sign up for Community Emergency Preparedness Programme training in fire-fighting, CPR/AED and First Aid Emergency Hotline: 995 Website: www.scdf.gov.sg Customer Service Centre Tel: 1800 - 286 - 5555 Email: scdf_csc@scdf.gov.sg Cyber Security Agency of Singapore • Find out more about cybersecurity threats and access complimentary cyber security training tools Website: www.csa.gov.sg/gosafeonline SkillsFuture Singapore • Use your SkillsFuture credits to learn useful courses that help you raise workplace preparedness Website: www.skillsfuture.sg Singapore Business Federation • Sign up to get Business Continuity Management certification • Sign up for other relevant courses such as crisis communications Business Continuity Management Portal: www.bcm.org.sg Email: bcm@sbf.org.sg Courses: www.sbi.org.sg Grants: www.businessgrants.gov.sg Workplace Safety and Health Council • Sign up for bizSAFE programme Website: www.wshc.sg/bizSAFE Email: bizSAFE@wshc.sg"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-guide-for-workplaces.pdf#page=2"",
+            ""title"": ""sgsecure-guide-for-workplaces""
+        },
+        {
+            ""text"": ""70 Enhance the General Safety of Your Hotel For general information on SGSecure and to access e-learning materials, visit: www.sgsecure.sg Ministry of Manpower To register SGSecure reps, and learn how to implement SGSecure at your hotel workplace, visit: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_workplaces@mom.gov.sg Singapore Police Force Find out about the Safety and Security Watch Group, Corporate First Responder Scheme, and get useful resources on contingency planning and response To register as a member of Safety and Security Watch Group (SSWG), Email: spf_sswg@spf.gov.sg Scan QR code for more information 5.3 Useful Contacts This section of the guide contains contact details of authorities and agencies which you may access or reach out to, to better prepare your employees pre-crisis and support your employees post-crisis."",
+            ""title"": ""sgsecure-hotel-guide"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=6""
+        },
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=4"",
+            ""text"": ""Why is it so challenging for the Police to recover my money if it has been transferred out of Singapore? How long does the Police take to return my money if it is recovered?""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-guide-for-workplaces.pdf#page=1"",
+            ""text"": ""organisation what they offer Resource & Contacts Ministry of Home Affairs • Find out more about the SGSecure movement • Access e-learning modules, posters, videos and publications Website: www.sgsecure.sg Ministry of Manpower • Register your SGSecure Rep • Read more about implementing SGSecure at your workplace Website: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_ workplaces@mom.gov.sg National Trades Union Congress • Find out how unions can work together with you to prepare your employees for a crisis • Find out how your union leaders can play a part in SGSecure Website: www.ntuc.org.sg Tel: 6213 8351 Email: ntucird@ntuc.org.sg Singapore National Employers Federation • Find out how you can prepare your workforce through events organised by SNEF Website: www.snef.org.org Tel: 6290 7696 Email: advisory@snef.org.sg USEFUL CONTACTS You can make use of the resources below to help you implement SGSecure in your organisation."",
+            ""title"": ""sgsecure-guide-for-workplaces""
+        },
+        {
+            ""title"": ""sgsecure-hotel-guide"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/sgsecure-hotel-guide.pdf#page=6"",
+            ""text"": ""70 Enhance the General Safety of Your Hotel For general information on SGSecure and to access e-learning materials, visit: www.sgsecure.sg Ministry of Manpower To register SGSecure reps, and learn how to implement SGSecure at your hotel workplace, visit: www.mom.gov.sg/sgsecure Tel: 6438 5122 Email: sgsecure_workplaces@mom.gov.sg Singapore Police Force Find out about the Safety and Security Watch Group, Corporate First Responder Scheme, and get useful resources on contingency planning and response To register as a member of Safety and Security Watch Group (SSWG), Email: spf_sswg@spf.gov.sg Scan QR code for more information 5.3 Useful Contacts This section of the guide contains contact details of authorities and agencies which you may access or reach out to, to better prepare your employees pre-crisis and support your employees post-crisis. Pre-Crisis Support""
+        },
+        {
+            ""title"": ""[Compiled/Foreword] A5 Anti-Scam Resource Guide Pamphlet"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Help and Resources/resourceguidepamphleteng.pdf#page=3"",
+            ""text"": ""You can also call the respective division's Investigation Branch Call Centre (IBCC). The contact number will be provided to you in an acknowledgement letter/email that was sent to you within seven working days after you reported your case. If urgent police attention is required, please call '999'.""
+        }
+    ]
+}"
+What happens if I am caught littering?,"If you are caught littering, you will be fined $300 for the first offence and $600 per offence thereafter","If you are caught littering in Singapore, you will be fined $300 for the first offense and $600 for each subsequent offense.  I found this information in a document about drinking laws in Singapore, which also mentions littering penalties.  Please note that this may not be completely accurate, as the source document focuses primarily on drinking laws.  For the most accurate information, I recommend checking official government sources.","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=3"",
+            ""text"": ""What happens if I am caught littering? If you are caught littering, you will be fined $300 for the first offence and $600 per offence thereafter Are there restrictions on drinking alcohol outside? You may buy and drink alcohol outside anytime except for the hours between 10:30pm to 7am daily."",
+            ""title"": ""salary.csv""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=3"",
+            ""text"": ""What happens if I am caught littering? If you are caught littering, you will be fined $300 for the first offence and $600 per offence thereafter Are there restrictions on drinking alcohol outside? You may buy and drink alcohol outside anytime except for the hours between 10:30pm to 7am daily. You may visit this link for more information on the matter: https://www.mha.gov.sg/docs/defau lt-source/media-room doc/annexestothepressreleaseonfirs treadingofliquorcontrolsupplyandco nsumptionbill.pdf?sfvrsn=d9df36e2_ 0#:~:text=Under%20the%20new%20 Bill%2C%20the,of%20liquor%20in% 20public%20places."",
+            ""title"": ""salary.csv""
+        }
+    ],
+    ""answer"": ""The penalty for littering in Singapore is a fine of $300 for the first offense and $600 for each subsequent offense.""
+}"
+Are there restrictions on drinking alcohol outside?,"You may buy and drink alcohol outside anytime except for the hours between 10:30pm to 7am daily. You may visit this link for more information on the matter: https://www.mha.gov.sg/docs/default-source/media-room-doc/annexestothepressreleaseonfirstreadingofliquorcontrolsupplyandconsumptionbill.pdf?sfvrsn=d9df36e2_0#:~:text=Under%20the%20new%20Bill%2C%20the,of%20liquor%20in%20public%20places.
+
+https://www.3mk.sg/blogs/three-musketeers-liquor-blog/drinking-laws-in-singapore-2023",You may buy and drink alcohol outside anytime except for the hours between 10:30pm to 7am daily.  I referenced this information from a document on drinking laws in Singapore.,"{
+    ""snippets"": [
+        {
+            ""title"": ""salary.csv"",
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=3"",
+            ""text"": ""What happens if I am caught littering? If you are caught littering, you will be fined $300 for the first offence and $600 per offence thereafter Are there restrictions on drinking alcohol outside? You may buy and drink alcohol outside anytime except for the hours between 10:30pm to 7am daily.""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Law/drinking-laws-in-sg.pdf#page=3"",
+            ""title"": ""salary.csv"",
+            ""text"": ""What happens if I am caught littering? If you are caught littering, you will be fined $300 for the first offence and $600 per offence thereafter Are there restrictions on drinking alcohol outside? You may buy and drink alcohol outside anytime except for the hours between 10:30pm to 7am daily. You may visit this link for more information on the matter: https://www.mha.gov.sg/docs/defau lt-source/media-room doc/annexestothepressreleaseonfirs treadingofliquorcontrolsupplyandco nsumptionbill.pdf?sfvrsn=d9df36e2_ 0#:~:text=Under%20the%20new%20 Bill%2C%20the,of%20liquor%20in% 20public%20places.""
+        }
+    ]
+}"
+How to help my friend who got scammed?,You may visit the Ant-Scam Resource Guide for information or access scamshield on how to get help for people who have been scammed,"I am sorry, I do not have access to specific information on how to help your friend who got scammed in Singapore. I would suggest searching online for resources such as the Singapore Police Force website or victim support organizations in Singapore. They will be able to provide you with the most accurate and up-to-date information and assistance.",NIL
+How can I go around Singapore by myself?,You may use the ez-link card to take bus or the train (MRT). These can be purchased from convenience stores like 7-11 or the MRT stations and you can top up your card using the machines at the MRT stations. For more information you may refer to this link: https://www.mom.gov.sg/-/media/mom/documents/publications/mw-guides/mw-handy-guide-english.pdf,"You can get around Singapore by bus, MRT, LRT, taxi, or private hire vehicles. To use the bus, MRT, or LRT, you will need an ez-link card. You can purchase an ez-link card at MRT stations and bus interchanges. I am 100% confident in my response. I referenced the information from mw-handy-guide-english.pdf (page 6).","{
+    ""snippets"": [
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Living in SG/mw-handy-guide-english.pdf#page=6"",
+            ""text"": ""The different types of transport are as follows: • Bus • Mass Rapid Transit (MRT) • Light Rail Transit (LRT) • Taxi • Private Hire Vehicles EZ-Link Cards To travel by bus, MRT or LRT, you will need an ez-link card which can be purchased at MRT stations and bus interchanges."",
+            ""title"": ""mw-handy-guide-english""
+        },
+        {
+            ""uri"": ""https://storage.cloud.google.com/aih-project-g1-t1/Living in SG/mw-handy-guide-english.pdf#page=6"",
+            ""title"": ""mw-handy-guide-english"",
+            ""text"": ""6 GETTING AROUND SINGAPORE It is easy to get around Singapore. The different types of transport are as follows: • Bus • Mass Rapid Transit (MRT) • Light Rail Transit (LRT) • Taxi • Private Hire Vehicles EZ-Link Cards To travel by bus, MRT or LRT, you will need an ez-link card which can be purchased at MRT stations and bus interchanges. Your ez-link card will have stored value in it. You can top up your card at ticket machines located at MRT stations and bus interchanges. Topping up can be done with your bank ATM card. You may approach the staff at the information counter at MRT stations or bus terminals for assistance. Details of bus and train routes and fares are displayed at bus stops, MRT and LRT stations.""
+        }
+    ]
+}"
